@@ -23,7 +23,7 @@
   <Item file="%ModDir%/Items/Searchlight/searchlight_custom.xml" />
   <Item file="%ModDir%/Items/Misc/dynamic_fins.xml" />
   <Item file="%ModDir%/Items/Misc/custom_decoration.xml" />
-  <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
+  <Particles file="%ModDir%/Particles/ParticlePrefabs1.xml" />
   <Text file="%ModDir%/Texts/EnglishEkDockyard.xml" />
   <!-- EK Utility -->
   <Item file="%ModDir%/Items/Diving/ekutility_divinggear.xml" />
@@ -37,4 +37,13 @@
   <!-- EK Gunnery -->
   <Item file="%ModDir%/Items/Command/ekgunnery_command.xml" />
   <Text file="%ModDir%/Texts/EnglishEkGunnery.xml" />
+  <!-- EK Armory --> 
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Item file="%ModDir%/Items/Weapons/ek_coilgunammo.xml" />
+  <Item file="%ModDir%/Items/Weapons/ek_shells.xml" />
+  <Item file="%ModDir%/Items/Weapons/ek_chaingunammo.xml" />
+  <Item file="%ModDir%/Items/Weapons/ek_pulselaserammo.xml" />
+  <Item file="%ModDir%/Items/Containers/ek_containers.xml" />
+  <Particles file="%ModDir%/Particles/ParticlePrefabs2.xml" />
+  <Text file="%ModDir%/Texts/EnglishEkArmory.xml" />
 </contentpackage>

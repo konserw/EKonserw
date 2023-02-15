@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!-- Characters -->
+  <character.gundrone>Gun Drone</character.gundrone>
+  <character.walkerdrone>Walker Drone</character.walkerdrone>
+  <character.homingshell>Railgun Homing Shell</character.homingshell>
+  <character.nuclearhomingshell>Nuclear Homing Shell</character.nuclearhomingshell>
+  <!-- ek_containers.xml -->
+  <entityname.ek_weapons_cabinet>Weapons Cabinet</entityname.ek_weapons_cabinet>
+  <entitydescription.ek_weapons_cabinet></entitydescription.ek_weapons_cabinet>
+  <entityname.ek_weapons_cabinet_bottomhalf>Weapons Cabinet</entityname.ek_weapons_cabinet_bottomhalf>
+  <entitydescription.ek_weapons_cabinet_bottomhalf></entitydescription.ek_weapons_cabinet_bottomhalf>
+  <entityname.ek_weapons_case>Weapons Case</entityname.ek_weapons_case>
+  <entitydescription.ek_weapons_case></entitydescription.ek_weapons_case>
+  <!-- ek_chaingunammo.xml -->
+  <entityname.ek_chaingunammo_large>Extended Chaingun Ammunition Box</entityname.ek_chaingunammo_large>
+  <entitydescription.ek_chaingunammo_large></entitydescription.ek_chaingunammo_large>
+  <entityname.ek_chaingunammophysicorium_large>Extended Physicorium Chaingun Ammunition Box</entityname.ek_chaingunammophysicorium_large>
+  <entitydescription.ek_chaingunammophysicorium_large></entitydescription.ek_chaingunammophysicorium_large>
+  <entityname.ek_chaingunammoexplosive>Exploding Chaingun Ammunition Box</entityname.ek_chaingunammoexplosive>
+  <entitydescription.ek_chaingunammoexplosive></entitydescription.ek_chaingunammoexplosive>
+  <entityname.ek_chaingunammoexplosive_large>Extended Exploding Chaingun Ammunition Box</entityname.ek_chaingunammoexplosive_large>
+  <entitydescription.ek_chaingunammoexplosive_large></entitydescription.ek_chaingunammoexplosive_large>
+  <entityname.ek_chaingunboltexplosive>Exploding Chaingun Bolt</entityname.ek_chaingunboltexplosive>
+  <entitydescription.ek_chaingunboltexplosive></entitydescription.ek_chaingunboltexplosive>
+  <entityname.ek_chaingunammoheavy>HEFC Chaingun Ammunition Box</entityname.ek_chaingunammoheavy>
+  <entitydescription.ek_chaingunammoheavy>Ammunition for the chaingun. High Explosive Fragmentation Composite shells with immense stopping power against soft and hard targets alike.</entitydescription.ek_chaingunammoheavy>
+  <entityname.ek_chaingunammoheavy_large>Extended HEFC Chaingun Ammunition Box</entityname.ek_chaingunammoheavy_large>
+  <entitydescription.ek_chaingunammoheavy_large>Ammunition for the chaingun. High Explosive Fragmentation Composite shells with immense stopping power against soft and hard targets alike.</entitydescription.ek_chaingunammoheavy_large>
+  <entityname.ek_chaingunboltheavy>HEFC Chaingun Bolt</entityname.ek_chaingunboltheavy>
+  <entitydescription.ek_chaingunboltheavy></entitydescription.ek_chaingunboltheavy>
+  <!-- ek_coilgunammo.xml -->
+  <entityname.ek_coilgunammo_large>Extended Coilgun Ammunition Box</entityname.ek_coilgunammo_large>
+  <entitydescription.ek_coilgunammo_large></entitydescription.ek_coilgunammo_large>
+  <entityname.ek_coilgunammoexplosive_large>Extended Exploding Ammunition Box</entityname.ek_coilgunammoexplosive_large>
+  <entitydescription.ek_coilgunammoexplosive_large></entitydescription.ek_coilgunammoexplosive_large>
+  <entityname.ek_coilgunammopiercing_large>Extended Piercing Ammunition Box</entityname.ek_coilgunammopiercing_large>
+  <entitydescription.ek_coilgunammopiercing_large></entitydescription.ek_coilgunammopiercing_large>
+  <entityname.ek_coilgunammophysicorium_large>Extended Physicorium Ammunition Box</entityname.ek_coilgunammophysicorium_large>
+  <entitydescription.ek_coilgunammophysicorium_large></entitydescription.ek_coilgunammophysicorium_large>
+  <entityname.ek_coilgunammoboxheavy>HEFC Ammunition Box</entityname.ek_coilgunammoboxheavy>
+  <entitydescription.ek_coilgunammoboxheavy>Ammunition for the coilgun. High Explosive Fragmentation Composite shells with immense stopping power against soft and hard targets alike.</entitydescription.ek_coilgunammoboxheavy>
+  <entityname.ek_coilgunammoheavy_large>Extended HEFC Ammunition Box</entityname.ek_coilgunammoheavy_large>
+  <entitydescription.ek_coilgunammoheavy_large>Ammunition for the coilgun. High Explosive Fragmentation Composite shells with immense stopping power against soft and hard targets alike.</entitydescription.ek_coilgunammoheavy_large>
+  <entityname.ek_coilgunboltheavy>HEFC Coilgun Bolt</entityname.ek_coilgunboltheavy>
+  <entitydescription.ek_coilgunboltheavy></entitydescription.ek_coilgunboltheavy>
+  <entityname.ek_coilgunammohighvelocity>High-Velocity Ammunition Box</entityname.ek_coilgunammohighvelocity>
+  <entitydescription.ek_coilgunammohighvelocity>Ammunition for the coilgun. High-velocity composite shells.</entitydescription.ek_coilgunammohighvelocity>
+  <entityname.ek_coilgunammohighvelocity_large>Extended High-Velocity Ammunition Box</entityname.ek_coilgunammohighvelocity_large>
+  <entitydescription.ek_coilgunammohighvelocity_large></entitydescription.ek_coilgunammohighvelocity_large>
+  <entityname.ek_coilgunbolthighvelocity>High-Velocity Coilgun Bolt</entityname.ek_coilgunbolthighvelocity>
+  <entitydescription.ek_coilgunbolthighvelocity></entitydescription.ek_coilgunbolthighvelocity>
+  <!-- ek_pulselaserammo.xml -->
+  <entityname.ek_pulselaserplasmaammobox>Pulse Laser Plasma Box</entityname.ek_pulselaserplasmaammobox>
+  <entitydescription.ek_pulselaserplasmaammobox>A pulse laser cartridge that instead generates helical bolts of plasma. Allows for greater damage but reduces its effective range.</entitydescription.ek_pulselaserplasmaammobox>
+  <entityname.ek_pulselaserplasmabolt>Pulse Plasma Bolt</entityname.ek_pulselaserplasmabolt>
+  <entitydescription.ek_pulselaserplasmabolt></entitydescription.ek_pulselaserplasmabolt>
+  <!-- ek_shells.xml -->
+  <entityname.ek_depthcharge_container>Depth Cargo Shell</entityname.ek_depthcharge_container>
+  <entitydescription.ek_depthcharge_container>A pressure resistant container designed to be compatible with most systems capable of launching depth charges. Useful for safely disposing of hazardous materials or delivering supplies quicky to the outside of the submarine.</entitydescription.ek_depthcharge_container>
+  <entityname.ek_railshell_decoy>Railgun Sonar Decoy</entityname.ek_railshell_decoy>
+  <entitydescription.ek_railshell_decoy>An experimental lure and countermeasure platform, shell comes to rest after traveling about 100m and emits a sonar beacon able to distract most monsters.</entitydescription.ek_railshell_decoy>
+  <entityname.ek_railshell_nucleardecoy>Nuclear Sonar Decoy</entityname.ek_railshell_nucleardecoy>
+  <entitydescription.ek_railshell_nucleardecoy>An experimental lure and countermeasure platform, shell comes to rest after traveling about 100m and emits a sonar beacon able to distract most monsters.</entitydescription.ek_railshell_nucleardecoy>
+  <entityname.ek_railshell_flechette>Railgun Flechette Shell</entityname.ek_railshell_flechette>
+  <entitydescription.ek_railshell_flechette>A specialized railgun shell that when fired bursts into multiple piercing projectiles.</entitydescription.ek_railshell_flechette>
+  <entityname.ek_railgun_flechette_pellet>ek_railgun_flechette_pellet</entityname.ek_railgun_flechette_pellet>
+  <entitydescription.ek_railgun_flechette_pellet></entitydescription.ek_railgun_flechette_pellet>
+  <entityname.ek_railgun_halfshells>Railgun Halfshells</entityname.ek_railgun_halfshells>
+  <entitydescription.ek_railgun_halfshells>Two half-length railgun shells. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshells>
+  <entityname.ek_railgun_halfshell>Railgun Halfshell</entityname.ek_railgun_halfshell>
+  <entitydescription.ek_railgun_halfshell>A half-length railgun shell. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshell>
+  <entityname.ek_railgun_halfshells_piercingslug>Railgun Piercing Halfshells</entityname.ek_railgun_halfshells_piercingslug>
+  <entitydescription.ek_railgun_halfshells_piercingslug>Two half-length armor-piercing shells. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshells_piercingslug>
+  <entityname.ek_railgun_halfshell_piercingslug>Railgun Piercing Halfshell</entityname.ek_railgun_halfshell_piercingslug>
+  <entitydescription.ek_railgun_halfshell_piercingslug>A half-length piercing shell. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshell_piercingslug>
+  <entityname.ek_railgun_halfshells_alien>Railgun Physicorium Halfshells</entityname.ek_railgun_halfshells_alien>
+  <entitydescription.ek_railgun_halfshells_alien>Two half-length physicorium shells. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshells_alien>
+  <entityname.ek_railgun_halfshell_alien>Physicorium Railgun Halfshell</entityname.ek_railgun_halfshell_alien>
+  <entitydescription.ek_railgun_halfshell_alien>A half-length physicorium shell. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshell_alien>
+  <entityname.ek_railshell_homing>Railgun Homing Shell</entityname.ek_railshell_homing>
+  <entitydescription.ek_railshell_homing>A highly advanced railgun shell with thermal tracking and guidance system, will automatically track to nearby hostile life forms when fired.</entitydescription.ek_railshell_homing>
+  <entityname.ek_railshell_nuclearhoming>Nuclear Homing Shell</entityname.ek_railshell_nuclearhoming>
+  <entitydescription.ek_railshell_nuclearhoming>A highly advanced railgun shell with thermal tracking and guidance system, will automatically track to nearby hostile life forms when fired.</entitydescription.ek_railshell_nuclearhoming>
+  <entityname.ek_railshell_flak>Railgun Flak Shell</entityname.ek_railshell_flak>
+  <entitydescription.ek_railshell_flak>A railgun shell designed with multiple outward-facing explosive charges that detonate in sequence. Produces shockwaves capable of rupturing the internal organs of most small creatures, and significantly disorienting larger ones.</entitydescription.ek_railshell_flak>
+  <entityname.ek_railshell_flak_smartfuse>Railgun Flak Proximity Shell</entityname.ek_railshell_flak_smartfuse>
+  <entitydescription.ek_railshell_flak_smartfuse>A railgun shell designed with multiple outward-facing explosive charges that detonate in sequence. Produces shockwaves capable of rupturing the internal organs of most small creatures, and significantly disorienting larger ones.</entitydescription.ek_railshell_flak_smartfuse>
+  <entityname.ek_railshell_piercingslug>Railgun Piercing Shell</entityname.ek_railshell_piercingslug>
+  <entitydescription.ek_railshell_piercingslug>A railgun shell with a kinetic armor-piercing core.</entitydescription.ek_railshell_piercingslug>
+  <entityname.ek_railshell_armorpiercing>Railgun Armor Piercing Explosive Shell</entityname.ek_railshell_armorpiercing>
+  <entitydescription.ek_railshell_armorpiercing>A railgun shell equipped with an advanced shaped-charge penetrating warhead.</entitydescription.ek_railshell_armorpiercing>
+  <entityname.ek_depthcharge_radiation>Radiation Depth Charge</entityname.ek_depthcharge_radiation>
+  <entitydescription.ek_depthcharge_radiation>Experimental depth charge shell equipped with a high-energy radiation emitter. Use of this device in combat is considered a war-crime under coalition law.</entitydescription.ek_depthcharge_radiation>
+  <entityname.ek_railgun_flare_effect>ek_railgun_flare_effect</entityname.ek_railgun_flare_effect>
+  <entitydescription.ek_railgun_flare_effect></entitydescription.ek_railgun_flare_effect>
+  <entityname.ek_railshell_flare>Railgun Flare Shell</entityname.ek_railshell_flare>
+  <entitydescription.ek_railshell_flare>A flare projection solution in railgun shell form. When fired, it creates a short line of flares.</entitydescription.ek_railshell_flare>
+  <entityname.ek_railshell_incendiary>Railgun Incendiary Shell</entityname.ek_railshell_incendiary>
+  <entitydescription.ek_railshell_incendiary>A railgun shell equipped with an incendiary warhead.</entitydescription.ek_railshell_incendiary>
+  <entityname.ek_railshell_highvelocity>Railgun High-Velocity Shell</entityname.ek_railshell_highvelocity>
+  <entitydescription.ek_railshell_highvelocity>A railgun shell with a flat, long-range trajectory.</entitydescription.ek_railshell_highvelocity>
+  <entityname.ek_depthcharge_cyanide_cloud>ek_depthcharge_cyanide_cloud</entityname.ek_depthcharge_cyanide_cloud>
+  <entitydescription.ek_depthcharge_cyanide_cloud></entitydescription.ek_depthcharge_cyanide_cloud>
+  <entityname.ek_depthcharge_cyanide>Cyanide Depth Charge</entityname.ek_depthcharge_cyanide>
+  <entitydescription.ek_depthcharge_cyanide>Depth charge equipped with a payload of cyanide, which disperses into the surrounding water shortly after firing.</entitydescription.ek_depthcharge_cyanide>
+  <entityname.ek_depthcharge_paralyzant_cloud>ek_depthcharge_paralyzant_cloud</entityname.ek_depthcharge_paralyzant_cloud>
+  <entitydescription.ek_depthcharge_paralyzant_cloud></entitydescription.ek_depthcharge_paralyzant_cloud>
+  <entityname.ek_depthcharge_paralyzant>Paralyzant Depth Charge</entityname.ek_depthcharge_paralyzant>
+  <entitydescription.ek_depthcharge_paralyzant>Depth charge equipped with a payload of paralyzant, which disperses into the surrounding water shortly after firing.</entitydescription.ek_depthcharge_paralyzant>
+  <entityname.ek_depthcharge_radiotoxin_cloud>ek_depthcharge_radiotoxin_cloud</entityname.ek_depthcharge_radiotoxin_cloud>
+  <entitydescription.ek_depthcharge_radiotoxin_cloud></entitydescription.ek_depthcharge_radiotoxin_cloud>
+  <entityname.ek_depthcharge_radiotoxin>Radiotoxin Depth Charge</entityname.ek_depthcharge_radiotoxin>
+  <entitydescription.ek_depthcharge_radiotoxin>Depth charge equipped with a payload of radiotoxin, which disperses into the surrounding water shortly after firing.</entitydescription.ek_depthcharge_radiotoxin>
+  <entityname.ek_depthcharge_flare>Flare Depth Charge</entityname.ek_depthcharge_flare>
+  <entitydescription.ek_depthcharge_flare>A flare projection solution in depth-charge form. When fired, it creates a short line of flares.</entitydescription.ek_depthcharge_flare>
+  <entityname.ek_depthcharge_chaff_cloud>ek_depthcharge_chaff_cloud</entityname.ek_depthcharge_chaff_cloud>
+  <entitydescription.ek_depthcharge_chaff_cloud></entitydescription.ek_depthcharge_chaff_cloud>
+  <entityname.ek_depthcharge_chaff_aitarget>ek_depthcharge_chaff_aitarget</entityname.ek_depthcharge_chaff_aitarget>
+  <entitydescription.ek_depthcharge_chaff_aitarget></entitydescription.ek_depthcharge_chaff_aitarget>
+  <entityname.ek_depthcharge_chaff>Chaff Depth Charge</entityname.ek_depthcharge_chaff>
+  <entitydescription.ek_depthcharge_chaff>Passive sonar countermeasure in depth-charge form. Disperses a cloud of sonar-disrupting material in a large area.</entitydescription.ek_depthcharge_chaff>
+  <entityname.ek_railshell_chaff>Railgun Chaff Shell</entityname.ek_railshell_chaff>
+  <entitydescription.ek_railshell_chaff>Passive sonar countermeasure in railgun shell form. Disperses a cloud of sonar-disrupting material in a large area.</entitydescription.ek_railshell_chaff>
+</infotexts>

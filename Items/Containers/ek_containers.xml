@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="ek_weapons_cabinet" aliases="weapons cabinet" tags="cabinet,weapons_cabinet" pickdistance="150" scale="0.6">
+    <Sprite texture="containers_ek.png" depth="0.84" sourcerect="0,224,192,200" origin="0.5,0.5" />
+    <BrokenSprite texture="containers_ek.png" depth="0.84" sourcerect="512,0,192,200" origin="0.5,0.5" maxcondition="90" />
+    <DecorativeSprite name="Weapons Cabinet Doors" texture="containers_ek.png" depth="0.82" sourcerect="192,224,192,200" origin="0.5,0.5" offset="0,0" />
+    <ItemContainer autofill="False" capacity="4" maxstacksize="1" canbeselected="true" hideitems="false" hudpos="0.5, 0.3" slotsperrow="4" msg="ItemMsgInteractSelect" itempos="34,-120" iteminterval="38,0" itemrotation="90" allowuioverlap="true">
+      <!--<GuiFrame relativesize="0.2,0.2" anchor="TopCenter" style="ItemUI" hudpos="0.5, 0.3" />-->
+      <GuiFrame relativesize="0.3,0.3" anchor="Center" style="ItemUI" hudpos="0.5, 2" />
+      <RequiredItem identifiers="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+      <Containable identifiers="weapon" />
+    </ItemContainer>
+    <!-- Open in the year 2080 when container-mode finally works
+	
+	<ItemContainer autofill="False" capacity="10" canbeselected="true" hideitems="true" hudpos="0.5, 2" slotsperrow="5" allowuioverlap="true" >
+      <GuiFrame relativesize="0.2,0.3" anchor="Center" style="ItemUI" hudpos="0.5, 2" />
+      <RequiredItem identifiers="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true"/>
+      <Containable identifiers="smallitem,magazine,round,shell,ek_microtorpedo,ek_ammobox_shotgun" >
+        <StatusEffect type="OnContaining" target="This" Condition="-10.0" disabledeltatime="true">
+          <Conditional Condition="eq 100" />
+        </StatusEffect>
+      </Containable>
+      <StatusEffect type="Always" target="This" Condition="10.0" disabledeltatime="true" delay="0.5">
+        <Conditional Condition="eq 90" />
+      </StatusEffect>
+    </ItemContainer>
+	-->
+  </Item>
+  <Item name="" identifier="ek_weapons_cabinet_bottomhalf" aliases="weapons cabinet" tags="cabinet,weapons_cabinet" pickdistance="150" scale="0.6">
+    <Sprite texture="containers_ek.png" depth="0.84" sourcerect="0,424,192,104" origin="0.5,0.5" />
+    <BrokenSprite texture="containers_ek.png" depth="0.84" sourcerect="512,200,192,104" origin="0.5,0.5" maxcondition="90" />
+    <DecorativeSprite name="Weapons Cabinet Doors" texture="containers_ek.png" depth="0.82" sourcerect="192,424,192,104" origin="0.5,0.5" offset="0,0" />
+    <ItemContainer autofill="False" capacity="10" canbeselected="true" hideitems="true" hudpos="0.5, 2" slotsperrow="5" allowuioverlap="true">
+      <GuiFrame relativesize="0.3,0.3" anchor="Center" style="ItemUI" hudpos="0.5, 2" />
+      <RequiredItem identifiers="idcard" type="Picked" msg="ItemMsgUnauthorizedAccess" ignoreineditor="true" />
+      <Containable identifiers="smallitem,magazine,round,shell,ek_microtorpedo,ek_ammobox_shotgun">
+        <StatusEffect type="OnContaining" target="This" Condition="-10.0" disabledeltatime="true">
+          <Conditional Condition="eq 100" />
+        </StatusEffect>
+      </Containable>
+      <StatusEffect type="Always" target="This" Condition="10.0" disabledeltatime="true" delay="0.5">
+        <Conditional Condition="eq 90" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+</Items>
