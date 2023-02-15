@@ -35,27 +35,9 @@
   <Item file="%ModDir%/Items/Containers/ekutility_labels.xml" />
   <Item file="%ModDir%/Items/Containers/ekutility_containers.xml" />
   <Text file="%ModDir%/Texts/EnglishEKUtilities.xml" />
+  <!-- labels -->
   <Structure file="%ModDir%/Map/icons.xml" />
-  <!--
-  <None file="%ModDir%/Map/Label_icon_damage_control.png" />
-  <None file="%ModDir%/Map/Label_icon_observation.png" />
-  <None file="%ModDir%/Map/Label_icon_brig.png" />
-  <None file="%ModDir%/Map/Label_icon_brig2.png" />
-  <None file="%ModDir%/Map/Label_icon_cannon.png" />
-  <None file="%ModDir%/Map/Label_icon_cannon_naked.png" />
-  <None file="%ModDir%/Map/Label_icon_crewquarters.png" />
-  <None file="%ModDir%/Map/Label_icon_depth_charge.png" />
-  <None file="%ModDir%/Map/Label_icon_drone_control.png" />
-  <None file="%ModDir%/Map/Label_icon_gunnery.png" />
-  <None file="%ModDir%/Map/Label_icon_life_support.png" />
-  <None file="%ModDir%/Map/Label_icon_gunnery256.png" />
-  <None file="%ModDir%/Map/Label_icon_messhall.png" />
-  <None file="%ModDir%/Map/Label_icon_observation2.png" />
-  <None file="%ModDir%/Map/Label_icon_science.png" />
-  <None file="%ModDir%/Map/Label_icon_life_support2.png" />
-  <None file="%ModDir%/Map/Label_icon_europa_coalition.png" />
-  <None file="%ModDir%/Map/Label_icon_flag_can.png" />
-  -->
+  <!-- EK Gunnery -->
   <Item file="%ModDir%/Items/Command/ekgunnery_command.xml" />
   <Text file="%ModDir%/Texts/EnglishEkGunnery.xml" />
 </contentpackage>
