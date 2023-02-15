@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="EKonserw" modversion="1.0.0" corepackage="False" gameversion="0.20.16.1">
+  <!-- EK Dockyard-->
   <Structure file="%ModDir%/Map/customstructures_interiorwall.xml" />
   <Structure file="%ModDir%/Map/customstructures_shelldeco.xml" />
   <Structure file="%ModDir%/Map/customstructures_glass.xml" />
@@ -24,8 +25,7 @@
   <Item file="%ModDir%/Items/Misc/custom_decoration.xml" />
   <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
   <Text file="%ModDir%/Texts/EnglishEkDockyard.xml" />
-  <Item file="%ModDir%/Items/overwrite_tools.xml" />
-  <Item file="%ModDir%/Items/overwrite_alienitems.xml" />
+  <!-- EK Utility -->
   <Item file="%ModDir%/Items/Diving/ekutility_divinggear.xml" />
   <Item file="%ModDir%/Items/Tools/ekutility_tools.xml" />
   <Item file="%ModDir%/Items/Tools/ekutility_placeablemachines.xml" />
