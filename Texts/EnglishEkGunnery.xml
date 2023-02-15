@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!-- ekgunnery_command.xml -->
+  <entityname.ekgunnery_periscopesonar_style1>Sonar Fire-Control Computer</entityname.ekgunnery_periscopesonar_style1>
+  <entitydescription.ekgunnery_periscopesonar_style1>Fire-control system linked to the submarine's sonar array. Designed for engaging targets at long-range via sonar instrumentation.</entitydescription.ekgunnery_periscopesonar_style1>
+</infotexts>

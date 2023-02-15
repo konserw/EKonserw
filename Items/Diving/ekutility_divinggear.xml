@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="ekutility_reinforcedtank_oxygen" aliases="ekutility_heavytank_oxygen,heavy oxygen tank" category="Equipment,Misc,Diving" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="8">
+    <!--<Price storeidentifier="merchantCity" buyprice="110" />
+    <Price storeidentifier="merchantResearch" buyprice="125" />
+    <Price storeidentifier="merchantMilitary" buyprice="130" />
+    <Price storeidentifier="merchantOutpost" buyprice="125" />-->
+    <!-- 
+	base price 75
+	
+	titaniumaluminiumalloy 90
+	ballisticfiber 37
+	-->
+    <PreferredContainer primary="divingcab" minamount="1" maxamount="5" spawnprobability="0.5" />
+    <PreferredContainer primary="oxygentankcontainer" />
+    <PreferredContainer primary="divingsuit,divingmask,plasmacutter" spawnprobability="1.0" />
+    <Price baseprice="120" minleveldifficulty="25">
+      <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="8" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="12" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" minavailable="8" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" minavailable="6" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" minavailable="5" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" outcondition="0.5" />
+      <Item identifier="ballisticfiber" outcondition="0.25" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" outcondition="0.0" requiredtime="8" amount="4">
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="ballisticfiber" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" outcondition="0.0" requiredtime="2">
+      <RequiredItem identifier="titaniumaluminiumalloy" mincondition="0.5" usecondition="true" />
+      <RequiredItem identifier="ballisticfiber" mincondition="0.25" usecondition="true" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="64,0,64,64" />
+    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="0,0,48,112" depth="0.55" origin="0.5,0.5" />
+    <Body width="42" height="108" density="8" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15" />
+    </Quality>
+  </Item>
+  <Item name="" identifier="ekutility_reinforcedtank_oxygenite" aliases="ekutility_heavytank_oxygenite,heavy oxygenite tank" category="Equipment,Misc,Diving" Tags="smallitem,oxygensource,oxygenitetank" scale="0.3" impactsoundtag="impact_metal_light" maxstacksize="8">
+    <!--<Price storeidentifier="merchantResearch" buyprice="300" />-->
+    <Price baseprice="300" soldeverywhere="false" minleveldifficulty="25">
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1.1" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="1.5" sold="false" />
+    </Price>
+    <!-- 
+	base price 175
+	
+	titaniumaluminiumalloy 90
+	ballisticfiber 37
+	liquidoxygenite 160
+	-->
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" outcondition="0.5" />
+      <Item identifier="ballisticfiber" outcondition="0.25" />
+      <Item identifier="liquidoxygenite" copycondition="true" />
+      <Item identifier="liquidoxygenite" copycondition="true" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" outcondition="1.0" requiredtime="2">
+      <RequiredItem identifier="titaniumaluminiumalloy" mincondition="0.5" usecondition="true" />
+      <RequiredItem identifier="ballisticfiber" mincondition="0.25" usecondition="true" />
+      <RequiredItem identifier="liquidoxygenite" />
+      <RequiredItem identifier="liquidoxygenite" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="64,64,64,64" />
+    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="0,112,48,112" depth="0.55" origin="0.5,0.5" />
+    <Body width="42" height="108" density="8" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15" />
+    </Quality>
+  </Item>
+  <Item name="" identifier="ekutility_rebreatherunit" aliases="rebreather,ekutility_rebreather" category="Equipment,Misc,Diving" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light">
+    <!--<Price storeidentifier="merchantResearch" buyprice="255" />-->
+    <!--<Price storeidentifier="merchantMilitary" buyprice="300" />-->
+    <Price baseprice="275" soldeverywhere="false" minleveldifficulty="33">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="4" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="10">
+      <Item identifier="titaniumaluminiumalloy" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="carbon" />
+      <Item identifier="lithium" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" outcondition="0.2" requiredtime="30">
+      <RequiredSkill identifier="mechanical" level="30" />
+      <RequiredSkill identifier="medical" level="60" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="carbon" />
+      <RequiredItem identifier="lithium" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="128,0,64,64" />
+    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="64,128,96,80" depth="0.55" origin="0.5,0.55" />
+    <Body width="85" height="60" density="15" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect">
+      <StatusEffect type="Always" target="This" targetitemcomponent="LightComponent" IsOn="true" disabledeltatime="true" delay="3.5">
+        <Conditional Condition="lt 99" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" targetitemcomponent="LightComponent" IsOn="false" disabledeltatime="true" delay="3.5">
+        <Conditional Condition="gt 99" />
+      </StatusEffect>
+    </Holdable>
+    <LightComponent characterusable="false" LightColor="0,0,0,0" range="1" IsOn="false">
+      <StatusEffect type="OnActive" target="This" Condition="0.6">
+        <RequiredItem identifier="batterycell,fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained" Condition="-0.18">
+        <RequiredItem identifier="batterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" target="Contained" Condition="-0.09">
+        <RequiredItem identifier="fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+    </LightComponent>
+    <ItemContainer autofill="False" capacity="1" maxstacksize="1" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable identifiers="batterycell,fulguriumbatterycell" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ekutility_jetscooter" aliases="ekutility_experimentalscooter" category="Equipment,Diving" Tags="smallitem,provocative,scooter,underwaterscooter,light" cargocontaineridentifier="metalcrate" Scale="0.32" impactsoundtag="impact_metal_light" isshootable="true">
+    <!--<Price storeidentifier="merchantResearch" buyprice="160" />-->
+    <Price baseprice="170" soldeverywhere="false" minleveldifficulty="25">
+      <Price storeidentifier="merchantoutpost" multiplier="1.1" minavailable="1" />
+      <Price storeidentifier="merchantcity" multiplier="1.25" minavailable="2" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="3" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.25" minavailable="2" />
+      <Price storeidentifier="merchantmine" multiplier="0.9" sold="false" />
+    </Price>
+    <Deconstruct time="25">
+      <Item identifier="aluminium" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="25">
+      <RequiredSkill identifier="mechanical" level="40" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="128,64,64,64" />
+    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" depth="0.55" sourcerect="192,0,320,160" />
+    <Body width="228" height="96" density="10" />
+    <Holdable slots="Any,RightHand+LeftHand" aimpos="90,0" handle1="-50,55" handle2="-54,59" msg="ItemMsgPickUpSelect" />
+    <Propulsion force="200" usablein="water" particles="bubbles">
+      <RequiredItems identifier="mobilebattery" type="Contained" msg="ItemMsgBatteryCellRequired" />
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.4">
+        <RequiredItem items="batterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.2">
+        <RequiredItem items="fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.4">
+        <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <sound file="Content/Items/Diving/ScooterLoop.ogg" type="OnUse" range="500.0" loop="true" />
+      <LightComponent LightColor="1.0,1.0,1.0,0.8" range="1000" AllowInGameEditing="false">
+        <LightTexture texture="Content/Lights/lightcone.png" origin="0.05, 0.5" size="1.0,1.0" />
+      </LightComponent>
+    </Propulsion>
+    <Sonar range="6000.0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.5" disabledeltatime="true">
+        <RequiredItem items="batterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.25" disabledeltatime="true">
+        <RequiredItem items="fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" targettype="Contained" Condition="-0.5" disabledeltatime="true">
+        <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" />
+      <GuiFrame relativesize="0.4,0.4" anchor="CenterLeft" relativeoffset="0.006,-0.01" />
+      <PingCircle texture="Content/Items/Command/pingCircle.png" origin="0.5,0.5" />
+      <DirectionalPingCircle texture="Content/Items/Command/directionalPingCircle.png" origin="0.0,0.5" />
+      <ScreenOverlay texture="Content/Items/Command/sonarOverlay.png" origin="0.5,0.5" />
+      <ScreenBackground texture="Content/Items/Command/sonarBackground.png" origin="0.5,0.5" />
+      <DirectionalPingBackground texture="Content/Items/Command/directionalPingBackground.png" origin="0.5,0.5" />
+      <DirectionalPingButton index="0" texture="Content/Items/Command/directionalPingButton.png" sourcerect="0,0,91,266" origin="-4.5275,0.5" />
+      <DirectionalPingButton index="1" texture="Content/Items/Command/directionalPingButton.png" sourcerect="133,0,91,266" origin="-4.5275,0.5" />
+      <DirectionalPingButton index="2" texture="Content/Items/Command/directionalPingButton.png" sourcerect="266,0,91,266" origin="-4.5275,0.5" />
+      <Blip texture="Content/Items/Command/sonarBlip.png" origin="0.5,0.5" />
+      <LineSprite texture="Content/Items/Command/NavUI.png" sourcerect="181,141,109,4" origin="0,0.5" />
+      <icon identifier="outpost" texture="Content/UI/MainIconsAtlas.png" sourcerect="352,398,16,8" origin="0.5,0.5" />
+      <icon identifier="submarine" texture="Content/UI/MainIconsAtlas.png" sourcerect="353,407,14,6" origin="0.5,0.5" />
+      <icon identifier="shuttle" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,407,8,6" origin="0.5,0.5" />
+      <icon identifier="artifact" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,414,8,8" origin="0.5,0.5" />
+      <icon identifier="mineral" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,434,7,12" origin="0.5,0.5" />
+      <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5" />
+    </Sonar>
+    <ItemContainer autofill="False" capacity="1" maxstacksize="1" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+    <AiTarget soundrange="2000" />
+  </Item>
+  <!--  <Item name="Advanced Sonar Beacon" identifier="ekutility_advancedsonarbeacon" category="Equipment" Tags="smallitem,sonar" preferredcontainers="locker" cargocontaineridentifier="metalcrate" Scale="0.32" impactsoundtag="impact_metal_light">
+    <Price storeidentifier="merchantCity" buyprice="100" />
+    <Price storeidentifier="merchantResearch" buyprice="100" />
+    <Price storeidentifier="merchantMilitary" buyprice="150" />
+    <Price storeidentifier="merchantOutpost" buyprice="150" />
+    <Deconstruct time="15">
+      <Item identifier="fpgacircuit" />
+      <Item identifier="plastic" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="plastic" />
+    </Fabricate>
+    <InventoryIcon texture="Mods/EK Utilities/Items/Diving/ekutility_divinggear.png" sourcerect="512,0,64,64" />
+    <Sprite texture="Mods/EK Utilities/Items/Diving/ekutility_divinggear.png" depth="0.55" sourcerect="512,64,48,128" origin="0.5,0.63" />
+    <Body width="40" height="100" density="10" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget soundrange="5000" sonarlabel="Signal - Beacon" />
+    <LightComponent LightColor="0.25,1.0,0.3,1.0" range="50" powerconsumption="10" blinkfrequency="2" IsOn="false" canbeselected="false">
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.1" />
+      <StatusEffect type="OnActive" targettype="This" SoundRange="10000" setvalue="true" />
+      <sound file="Content/Items/WarningBeep.ogg" type="OnActive" range="500.0" loop="true" volume="0.25" />
+    </LightComponent>
+    <CustomInterface canbeselected="true" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.15,0.2" anchor="BottomLeft" absoluteoffset="20,20" style="ItemUI" />
+      <TickBox text="Beacon Active">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" targettype="This" IsOn="false" />
+      </TickBox>
+      <Button text="Mode - Beacon" >
+        <StatusEffect type="OnUse" targettype="This" targetitemcomponent="AiTarget" sonarlabel="Signal - Beacon" disabledeltatime="true" >
+          <sound file="Content\Items\Button\Switch1.ogg" type="OnActive" range="250.0" loop="false" volume="0.3" />
+        </StatusEffect>
+      </Button>
+      <Button text="Mode - Point of Interest" >
+        <StatusEffect type="OnUse" targettype="This" targetitemcomponent="AiTarget" sonarlabel="Signal - Point of Interest" disabledeltatime="true" >
+          <sound file="Content\Items\Button\Switch1.ogg" type="OnActive" range="250.0" loop="false" volume="0.3" />
+        </StatusEffect>
+      </Button>
+      <Button text="Mode - Follow Me" >
+        <StatusEffect type="OnUse" targettype="This" targetitemcomponent="AiTarget" sonarlabel="Signal - Follow Me" disabledeltatime="true" >
+          <sound file="Content\Items\Button\Switch1.ogg" type="OnActive" range="250.0" loop="false" volume="0.3" />
+        </StatusEffect>
+      </Button>
+      <Button text="Mode - S O S" >
+        <StatusEffect type="OnUse" targettype="This" targetitemcomponent="AiTarget" sonarlabel="Signal - Distress Beacon" disabledeltatime="true" >
+          <sound file="Content\Items\Button\Switch1.ogg" type="OnActive" range="250.0" loop="false" volume="0.3" />
+        </StatusEffect>
+      </Button>
+    </CustomInterface>
+    <ItemContainer autofill="False" capacity="1" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+  </Item> -->
+  <Item name="" identifier="ekutility_advancedsonarbeacon" category="Equipment,Diving" Tags="smallitem,sonar" cargocontaineridentifier="metalcrate" Scale="0.35" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="crewcab,supplycab" />
+    <!--<Price storeidentifier="merchantCity" buyprice="150" />
+    <Price storeidentifier="merchantResearch" buyprice="150" />
+    <Price storeidentifier="merchantMilitary" buyprice="200" />
+    <Price storeidentifier="merchantOutpost" buyprice="200" />-->
+    <Price baseprice="150" soldeverywhere="false" minleveldifficulty="25">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="1" />
+      <Price storeidentifier="merchantmilitary" multiplier="1.5" minavailable="1" />
+      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
+    </Price>
+    <Deconstruct time="15">
+      <Item identifier="fpgacircuit" />
+      <Item identifier="fpgacircuit" />
+      <Item identifier="steel" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="fpgacircuit" />
+      <RequiredItem identifier="steel" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="512,0,64,64" />
+    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" depth="0.55" sourcerect="512,64,48,128" origin="0.5,0.63" />
+    <Body width="40" height="100" density="10" />
+    <Holdable slots="Any,RightHand,LeftHand" holdangle="30" handle1="-10,0" msg="ItemMsgPickUpSelect" />
+    <AiTarget soundrange="5000" sonarlabel="entityname.sonarbeacon" />
+    <LightComponent LightColor="0.4,1.0,0.3,0.7" range="20" powerconsumption="10" Flicker="0.35" IsOn="false" canbeselected="false">
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.1">
+        <RequiredItem items="batterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.05">
+        <RequiredItem items="fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" targettype="Contained" Condition="-0.1">
+        <RequiredItem excludedidentifiers="batterycell,fulguriumbatterycell" type="Contained" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" targettype="This" SoundRange="6000" setvalue="true">
+        <sound file="%ModDir%/Items/Diving/ek_advancedbeacon_ping.ogg" range="3000.0" loop="true" volume="0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnActive" targettype="This">
+        <sound file="%ModDir%/Items/Diving/ek_advancedbeacon_noise.ogg" range="750.0" loop="true" volume="0.3" />
+      </StatusEffect>
+    </LightComponent>
+    <!--
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true">
+      <GuiFrame relativesize="0.12,0.08" anchor="BottomLeft" absoluteoffset="20,128" style="ItemUI" />
+      <TickBox text="sonarbeacon.beaconactive">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" targettype="This" IsOn="false" />
+      </TickBox>
+      <TextBox text="sonarbeacon.beaconsignal" propertyname="SonarLabel"/>
+    </CustomInterface>
+	-->
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+      <GuiFrame relativesize="0.16,0.15" anchor="CenterLeft" pivot="BottomLeft" relativeoffset="0.006,-0.05" style="ItemUI" />
+      <TickBox text="sonarbeacon.beaconactive">
+        <StatusEffect type="OnUse" targettype="This" IsOn="true" />
+        <StatusEffect type="OnSecondaryUse" targettype="This" IsOn="false" />
+      </TickBox>
+      <TextBox text="sonarbeacon.beaconsignal" propertyname="SonarLabel" />
+    </CustomInterface>
+    <ItemContainer autofill="False" capacity="1" maxstacksize="1" hideitems="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
+      <Containable items="mobilebattery">
+        <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
+      </Containable>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="ekutility_oxygencell2" category="Equipment,Misc,Diving" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell2" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light">
+    <PreferredContainer primary="oxygentankcontainer,divingcab" />
+    <Price baseprice="185" soldeverywhere="false">
+      <!-- Why does a vanilla oxygen tank sell for more than twice it's value? -->
+      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantcity" multiplier="0.9" sold="false" />
+      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantmilitary" multiplier="1" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="1.25" sold="false" />
+    </Price>
+    <!-- 92
+	42
+	(75)
+	30
+	15.5
+	5
+	-->
+    <Deconstruct time="10">
+      <Item identifier="aluminium" />
+      <Item identifier="ethanol" outcondition="0.5" />
+      <Item identifier="calcium" outcondition="0.5" />
+      <Item identifier="potassium" outcondition="0.5" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="15">
+      <RequiredSkill identifier="medical" level="75" />
+      <RequiredItem identifier="aluminium" />
+      <RequiredItem identifier="oxygentank" mincondition="0.99" usecondition="true" />
+      <RequiredItem identifier="ethanol" />
+      <RequiredItem identifier="calcium" />
+      <RequiredItem identifier="potassium" />
+    </Fabricate>
+    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="128,288,64,64" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="64,224,48,112" depth="0.55" origin="0.5,0.5" />
+    <Body width="22" height="64" density="9.9" />
+    <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
+    <Quality>
+      <QualityStat stattype="Condition" value="0.15" />
+    </Quality>
+  </Item>
+</Items>

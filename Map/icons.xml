@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <!-- LABELS START -->
+  <label name="Label Icon Damage Control (Custom Icons)" Aliases="Label M Icon Damage Control" identifier="Label Icon Damage ControlCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_damage_control.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Observation (Custom Icons)" Aliases="Label M Icon Observation" identifier="Label Icon ObservationCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_observation.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Life Support (Custom Icons)" identifier="Label Icon Life SupportCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_life_support.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Life Support2 (Custom Icons)" identifier="Label Icon Life Support2Cus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_life_support2.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Science (Custom Icons)" identifier="Label Icon ScienceCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_science.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Brig (Custom Icons)" identifier="Label Icon BrigCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_brig.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Brig2 (Custom Icons)" identifier="Label Icon Brig2Cus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_brig2.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Gunnery (Custom Icons)" identifier="Label Icon GunneryCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_gunnery.png" depth="0.550" sourcerect="0,0,128,128" />
+  </label>
+  <label name="Label Icon Gunnery256 (Custom Icons)" identifier="Label Icon Gunnery256Cus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_gunnery256.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Drone Control (Custom Icons)" identifier="Label Icon Drone ControlCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_drone_control.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Cannon (Custom Icons)" identifier="Label Icon CannonCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_cannon.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Cannon Naked (Custom Icons)" identifier="Label Icon Cannon NakedCus" scale="0.25" width="356" height="256" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_cannon_naked.png" depth="0.550" sourcerect="0,0,356,256" />
+  </label>
+  <label name="Label Icon Depth Charge (Custom Icons)" identifier="Label Icon Depth ChargeCus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_depth_charge.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Observation2 (Custom Icons)" Aliases="Label M Icon Observation2" identifier="Label Icon Observation2Cus" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_observation2.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Mess Hall (Custom Icons)" identifier="Label Icon Mess Hall" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_messhall.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Crew Quarters (Custom Icons)" identifier="Label Icon Crew Quarters" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_crewquarters.png" depth="0.550" sourcerect="0,0,256,256" />
+  </label>
+  <label name="Label Icon Europa Coalition (Custom Icons)" identifier="Label Icon Europa Coalition" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_europa_coalition.png" depth="0.550" sourcerect="0,0,99,99" />
+  </label>
+  <label name="Label Icon Flag Canada (Custom Icons)" identifier="Label Icon Flag Canada" scale="0.25" category="Decorative">
+    <sprite texture="%ModDir%/Map/Label_icon_flag_can.png" depth="0.550" sourcerect="0,0,512,256" />
+  </label>
+  <!--	
+	  <label 
+	  name="Label Icon Medical" 
+	  Aliases="Label M Icon Medical " 
+	  identifier="labelsiconmedical" 
+	  scale="0.25" 
+	  category="Decorative">
+    <sprite texture="Map/LabelIcons.png" sourcerect="0,0,256,256" depth="0.85" origin="0.5,0.5" />
+  </label>
+  
+-->
+</prefabs>
