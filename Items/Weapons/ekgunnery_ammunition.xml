@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Auxiliary Unique Ammo -->
+  <!--
+  <Item name="ekgunnery_debugminerammo" identifier="ekgunnery_debugminerammo" scale="0.5" tags="ammobox,crate,ekgunnery_chaingunequipment,ekgunnery_chaingunammo" 
+  description="Conventional ammunition for a chaingun turret." category="Equipment,Weapon" hideinmenus="true" linkable="false" impactsoundtag="impact_metal_heavy" >
+	<PreferredContainer primary="coilgunammocontainer,ammocontainer" />
+	
+    <Sprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="0,208,80,160" origin="0.5,0.5" />
+    <BrokenSprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="80,208,80,160" maxcondition="75" origin="0.5,0.5"/>
+    <BrokenSprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="160,208,80,160" maxcondition="60" origin="0.5,0.5"/>
+    <BrokenSprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="240,208,80,160" maxcondition="45" origin="0.5,0.5"/>
+    <BrokenSprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="320,208,80,160" maxcondition="30" origin="0.5,0.5"/>
+    <BrokenSprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="400,208,80,160" maxcondition="15" origin="0.5,0.5"/>
+    <BrokenSprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="480,208,80,160" maxcondition="0" origin="0.5,0.5"/>
+	
+    <ContainedSprite allowedcontainertags="coilgunammocontainer,crateshelf,ammoboxcontainer" allowedcontaineridentifiers="crateshelf,coilgunammoshelf" texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="560,208,112,80" origin="0.5,0.5" >
+      <StatusEffect type="Always" target="This" targetitemcomponent="ContainedSprite" setvalue="true" sourcerect="560,288,112,80" >
+        <Conditional condition="eq 0"/>
+	  </StatusEffect>
+      <StatusEffect type="OnBroken" target="This" targetitemcomponent="ContainedSprite" setvalue="true" sourcerect="560,288,112,80" />
+    </ContainedSprite>
+	
+    <Body width="75" height="155" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="50,-30" handle1="-15,15" handle2="-15,15" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="true" />
+    <ItemContainer autofill="False" hideitems="true" capacity="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="16,64,120,24" />
+      <StatusEffect type="OnUse" target="This" condition="-0.332" disabledeltatime="true">
+        <SpawnItem identifiers="ekgunnery_debugminerround" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="ekgunnery_debugminerround" />
+    </ItemContainer>
+  </Item>
+  
+  <Item name="ekgunnery_debugminerround" identifier="ekgunnery_debugminerround" category="Misc,Weapon" scale="0.5" hideinmenus="true" >
+    <Sprite texture="Mods/EK Gunnery/Items/Containers/ekgunnery_containers.png" sourcerect="928,0,48,16" depth="0.55" />
+    <Body width="160" height="10" density="15" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="4" >
+      <ParticleEmitter particle="ekgunnery_tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="0,200,255,175" scalemultiplier="1,1"/>
+      <Attack structuredamage="5" severlimbsprobability="0.35" targetforce="7" >
+        <Affliction identifier="gunshotwound" strength="12" />
+        <Affliction identifier="bleeding" strength="1" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="ekgunnery_impactfirearm" particleamount="1" velocitymin="0" velocitymax="0" />
+      </StatusEffect>
+	  <StatusEffect type="OnImpact" target="NearbyItems" targettags="ore" range="150.0" stackable="false" DeattachTimer="0.1" />
+      <StatusEffect type="OnImpact">
+        <ParticleEmitter particle="ekgunnerybubblesshort" anglemin="-180" anglemax="180" particleamount="1" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" velocitychangewater="0,0.5" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure"/>
+        <Conditional hastag="eq door"/>
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-25" anglemax="25" particleamount="4" velocitymin="-10" velocitymax="-300" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+-->
+  <Item name="Mining Laser Cell" identifier="ekgunnery_mininglaserammo" scale="0.5" tags="ammobox,crate,ekgunnery_mininglaserammo" description="Heavy non-rechargable capacitor which supplies the isolated power modulation needed to drive an acoustic laser system. The casing includes large heatsinks to accommodate the unit's tendancy to heat up during extended use." category="Equipment,Weapon" linkable="false" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="ekgunnery_mininglaserammosource,coilgunammocontainer,ammocontainer" />
+    <Price baseprice="190" soldeverywhere="false">
+      <Price storeidentifier="merchantoutpost" multiplier="1.25" minavailable="3" />
+      <Price storeidentifier="merchantcity" multiplier="1.0" minavailable="4" />
+      <Price storeidentifier="merchantresearch" multiplier="1.2" minavailable="2" />
+      <Price storeidentifier="merchantmilitary" multiplier="0.8" sold="false" />
+      <Price storeidentifier="merchantmine" multiplier="1.5" minavailable="2" />
+    </Price>
+    <!-- 194
+	20
+	26
+	10
+	88
+	50
+	-->
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+      <Item identifier="zinc" />
+      <Item identifier="potassium" mincondition="0.8" />
+      <Item identifier="lithium" mincondition="0.8" />
+      <Item identifier="antibloodloss1" mincondition="0.8" />
+      <!-- Deconstructing yields degraded components -->
+      <Item identifier="potassium" maxcondition="0.8" outcondition="0.5" />
+      <Item identifier="lithium" maxcondition="0.8" outcondition="0.5" />
+      <Item identifier="chlorine" maxcondition="0.8" />
+    </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="electrical" level="25" />
+      <RequiredItem identifier="steel" />
+      <RequiredItem identifier="zinc" />
+      <RequiredItem identifier="potassium" />
+      <RequiredItem identifier="lithium" />
+      <RequiredItem identifier="antibloodloss1" />
+    </Fabricate>
+    <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="928,96,128,112" origin="0.5,0.5" />
+    <ContainedSprite allowedcontainertags="coilgunammocontainer,crateshelf,ammoboxcontainer" allowedcontaineridentifiers="crateshelf,coilgunammoshelf" texture="%ModDir%/Items/Containers/ekgunnery_containers.png" depth="0.54" sourcerect="936,123,112,80" origin="0.5,0.5" />
+    <Body width="75" height="155" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="50,-30" handle1="-15,15" handle2="-15,15" aimable="false" msg="ItemMsgPickUpSelect" canBeCombined="false" />
+    <ItemContainer autofill="False" hideitems="true" capacity="1" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
+      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="16,64,120,24" />
+      <StatusEffect type="OnUse" target="This" condition="-0.15" disabledeltatime="true">
+        <SpawnItem identifiers="ekgunnery_mininglaserround" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <Containable identifiers="ekgunnery_mininglaserround" />
+    </ItemContainer>
+  </Item>
+  <Item name="Mining Laser Bolt" identifier="ekgunnery_mininglaserround" category="Misc,Weapon" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="928,0,48,16" depth="0.55" />
+    <Body width="160" height="10" density="15" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" hitscan="true" removeonhit="true" spread="1">
+      <ParticleEmitter particle="ekgunnery_tracermininglaser" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,255,175" scalemultiplier="1,3" />
+      <Attack structuredamage="0" itemdamage="1.5" levelwalldamage="0" severlimbsprobability="0" targetforce="2.5" penetration="0.4">
+        <!--
+		<Affliction identifier="bleeding" strength="0.3" />
+        <Affliction identifier="explosiondamage" strength="1.3" />
+        <Affliction identifier="internaldamage" strength="1.0" />
+        <Affliction identifier="organdamage" strength="0.8" />
+        <Affliction identifier="nausea" strength="0.6" />
+		-->
+        <Affliction identifier="bleeding" strength="0.6" />
+        <Affliction identifier="explosiondamage" strength="2.6" />
+        <Affliction identifier="internaldamage" strength="2.0" />
+        <Affliction identifier="organdamage" strength="1.6" />
+        <Affliction identifier="nausea" strength="1.2" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <ParticleEmitter particle="ekgunnery_impactmininglaser" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" scalemin="0.5" scalemax="0.8" />
+        <ParticleEmitter particle="FlareBubbles" particleamount="1" anglemin="0" anglemax="360" velocitymin="0" velocitymax="250" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="NearbyItems" targettags="ore" range="150.0" stackable="false" DeattachTimer="0.1" />
+      <StatusEffect type="OnImpact">
+        <ParticleEmitter particle="bubbles" anglemin="-180" anglemax="180" particleamount="1" velocitymin="-50" velocitymax="-250" scalemin="0.5" scalemax="1" />
+        <!-- That bug where projectiles can't damage level walls if their structuredamage is 0 still affects hitscan, so use explosions as a workaroud for now -->
+        <Explosion range="100.0" levelwalldamage="3" force="0" severlimbsprobability="0" camerashake="0" camerashakerange="0" shockwave="false" smoke="false" flames="false" flash="false" sparks="false" underwaterbubble="false" ignorecover="true" playtinnitus="false" applyfireeffects="false"></Explosion>
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <!-- Todo: The game doesn't like trying to solve the physics of a submarine being attached to another submarine -->
+  <Item name="ekgunnery_grapplinghookammo" identifier="ekgunnery_grapplinghookammo" tags="grapplinghookprojectile,provocative" health="100" hideinmenus="true" category="Equipment,Weapon" sonarsize="5" scale="1" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_metal_light">
+    <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="560,560,88,64" depth="0.56" origin="0.5,0.5" />
+    <BrokenSprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="656,560,48,96" depth="0.56" origin="0.5,0.5" maxcondition="90" />
+    <Body width="215" height="30" density="30" />
+    <!--<Rope targetpullforce="300" SourcePullForce="150" projectilepullforce="25"  maxlength="10000" snaponcollision="false" spritewidth="30" tile="true" >-->
+    <Rope targetpullforce="40000" SourcePullForce="40000" projectilepullforce="25" maxlength="10000" snaponcollision="false" spritewidth="30" tile="true">
+      <Sprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="537,576,14,32" depth="0.57" origin="0.5,0.5" />
+      <EndSprite texture="%ModDir%/Items/Containers/ekgunnery_containers.png" sourcerect="0,0,1,1" depth="0.56" origin="0.5,0.5" />
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="9" />
+      <StatusEffect type="Always" target="This" delay="0.5" checkconditionalalways="true">
+        <Conditional Snapped="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="4" checkconditionalalways="true">
+        <Conditional targetitemcomponent="Projectile" IsStuckToTarget="eq false" />
+      </StatusEffect>
+    </Rope>
+    <Projectile characterusable="false" launchimpulse="80.0" sticktostructures="true" sticktocharacters="true" stickpermanently="true" maxtargetstohit="2">
+      <Attack structuredamage="0">
+        <Affliction identifier="blunttrauma" strength="15" />
+        <Affliction identifier="stun" strength="0.3" />
+      </Attack>
+      <StatusEffect type="OnUse" target="This" delay="0.1" condition="-5" checkconditionalalways="true" disabledeltatime="true" stackable="false">
+        <Conditional Condition="eq 100" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" delay="0.5" condition="-5" checkconditionalalways="true" disabledeltatime="true" stackable="false">
+        <Conditional Condition="eq 95" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" delay="0.5" checkconditionalalways="true" disabledeltatime="true" stackable="false">
+        <Conditional Condition="eq 90" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This" condition="-20">
+        <Conditional Condition="gt 80" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <!-- <Sound file="Mods/EK Utilities/Items/Tools/grapplinghookimpact.ogg" range="2000" /> -->
+        <ParticleEmitter particle="weldspark" anglemin="0" anglemax="360" particleamount="10" velocitymin="100" velocitymax="750" scalemin="1.0" scalemax="2.0" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This" targetitemcomponent="Rope" setvalue="true" SourcePullForce="40000" targetpullforce="40000" projectilepullforce="40000" disabledeltatime="true" stackable="false">
+        <Conditional targetitemcomponent="Projectile" IsStuckToTarget="eq true" />
+      </StatusEffect>
+      <StatusEffect type="OnDeath" target="This" Snapped="true">
+        <Sound file="Content/Sounds/Damage/StructureBlunt1.ogg" range="2000" selectionmode="Random" />
+        <Sound file="Content/Sounds/Damage/StructureBlunt2.ogg" range="2000" />
+        <Sound file="Content/Sounds/Damage/StructureBlunt3.ogg" range="2000" />
+        <Sound file="Content/Sounds/Damage/StructureBlunt4.ogg" range="2000" />
+        <Sound file="Content/Sounds/Damage/StructureBlunt5.ogg" range="2000" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-30" anglemax="30" particleamount="3" velocitymin="10" velocitymax="300" scalemin="1.5" scalemax="2" />
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="-20" anglemax="20" particleamount="3" velocitymin="50" velocitymax="300" scalemin="1" scalemax="2" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+</Items>

@@ -36,6 +36,12 @@
   <Structure file="%ModDir%/Map/icons.xml" />
   <!-- EK Gunnery -->
   <Item file="%ModDir%/Items/Command/ekgunnery_command.xml" />
+  <Item file="%ModDir%/Items/Containers/ekgunnery_containers.xml" />
+  <Item file="%ModDir%/Items/Weapons/ekgunnery_melee.xml" />
+  <Item file="%ModDir%/Items/Weapons/ekgunnery_auxiliary.xml" />
+  <Item file="%ModDir%/Items/Weapons/ekgunnery_ammunition.xml" />
+  <Item file="%ModDir%/Items/Weapons/ekgunnery_loaders.xml" />
+  <Particles file="%ModDir%/Particles/ParticlePrefabs3.xml" />
   <Text file="%ModDir%/Texts/EnglishEkGunnery.xml" />
   <!-- EK Armory --> 
   <Afflictions file="%ModDir%/Afflictions.xml" />

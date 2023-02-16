@@ -3,4 +3,64 @@
   <!-- ekgunnery_command.xml -->
   <entityname.ekgunnery_periscopesonar_style1>Sonar Fire-Control Computer</entityname.ekgunnery_periscopesonar_style1>
   <entitydescription.ekgunnery_periscopesonar_style1>Fire-control system linked to the submarine's sonar array. Designed for engaging targets at long-range via sonar instrumentation.</entitydescription.ekgunnery_periscopesonar_style1>
+  <!-- ekgunnery_containers.xml -->
+  <entityname.ekgunnery_magazinestoragesmall>Magazine Storage Small</entityname.ekgunnery_magazinestoragesmall>
+  <entitydescription.ekgunnery_magazinestoragesmall>An armored compartment for storing shells and ammunition boxes.</entitydescription.ekgunnery_magazinestoragesmall>
+  <entityname.ekgunnery_magazinestoragemedium>Magazine Storage Medium</entityname.ekgunnery_magazinestoragemedium>
+  <entitydescription.ekgunnery_magazinestoragemedium>A larger armored compartment for storing shells and ammunition boxes.</entitydescription.ekgunnery_magazinestoragemedium>
+  <entityname.ekgunnery_loadingelevatormedium>Loading Conveyor Medium</entityname.ekgunnery_loadingelevatormedium>
+  <entitydescription.ekgunnery_loadingelevatormedium>A transport system for moving shells and ammunition in bulk between different areas of the submarine. Links to any other conveyors.</entitydescription.ekgunnery_loadingelevatormedium>
+  <!-- ekgunnery_auxiliary.xml -->
+  <entityname.ekgunnery_newauxiliaryhardpoint>Auxiliary Turret Hardpoint</entityname.ekgunnery_newauxiliaryhardpoint>
+  <entitydescription.ekgunnery_newauxiliaryhardpoint>An empty turret mount for specialized equipment and small weapons.</entitydescription.ekgunnery_newauxiliaryhardpoint>
+  <entityname.ekgunnery_newauxiliarymininglaserturret>Auxiliary Mining Laser</entityname.ekgunnery_newauxiliarymininglaserturret>
+  <entitydescription.ekgunnery_newauxiliarymininglaserturret>Acoustic-resonance laser system designed to break apart ice and soft minerals while leaving valuable ore intact.</entitydescription.ekgunnery_newauxiliarymininglaserturret>
+  <!-- ekgunnery_loaders.xml -->
+  <entityname.ekgunnery_newauxiliaryblankloader>Auxiliary Loader Base</entityname.ekgunnery_newauxiliaryblankloader>
+  <entitydescription.ekgunnery_newauxiliaryblankloader></entitydescription.ekgunnery_newauxiliaryblankloader>
+  <entityname.ekgunnery_newauxiliarymininglaserloader>Auxiliary Mining Laser Loader</entityname.ekgunnery_newauxiliarymininglaserloader>
+  <entitydescription.ekgunnery_newauxiliarymininglaserloader>Supplies power connection to a linked mining laser turret.</entitydescription.ekgunnery_newauxiliarymininglaserloader>
+  <!-- ekgunnery_melee.xml -->
+  <entityname.ekgunnery_meleespikessmall1>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall1>
+  <entitydescription.ekgunnery_meleespikessmall1>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall1>
+  <entityname.ekgunnery_meleespikessmall1b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall1b>
+  <entitydescription.ekgunnery_meleespikessmall1b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall1b>
+  <entityname.ekgunnery_meleespikessmall2>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall2>
+  <entitydescription.ekgunnery_meleespikessmall2>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall2>
+  <entityname.ekgunnery_meleespikessmall2b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall2b>
+  <entitydescription.ekgunnery_meleespikessmall2b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall2b>
+  <entityname.ekgunnery_meleespikessmall3>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall3>
+  <entitydescription.ekgunnery_meleespikessmall3>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall3>
+  <entityname.ekgunnery_meleespikessmall3b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall3b>
+  <entitydescription.ekgunnery_meleespikessmall3b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall3b>
+  <entityname.ekgunnery_meleespikessmall4>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall4>
+  <entitydescription.ekgunnery_meleespikessmall4>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall4>
+  <entityname.ekgunnery_meleespikessmall4b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall4b>
+  <entitydescription.ekgunnery_meleespikessmall4b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall4b>
+  <entityname.ekgunnery_meleespikessmall5>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall5>
+  <entitydescription.ekgunnery_meleespikessmall5>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall5>
+  <entityname.ekgunnery_meleespikessmall5b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall5b>
+  <entitydescription.ekgunnery_meleespikessmall5b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall5b>
+  <entityname.ekgunnery_meleespikessmall6>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall6>
+  <entitydescription.ekgunnery_meleespikessmall6>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall6>
+  <entityname.ekgunnery_meleespikessmall6b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall6b>
+  <entitydescription.ekgunnery_meleespikessmall6b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall6b>
+  <entityname.ekgunnery_meleespikessmall6c>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall6c>
+  <entitydescription.ekgunnery_meleespikessmall6c>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall6c>
+  <entityname.ekgunnery_meleespikessmall7>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall7>
+  <entitydescription.ekgunnery_meleespikessmall7>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall7>
+  <entityname.ekgunnery_meleespikessmall7b>Shell Spike (Small)</entityname.ekgunnery_meleespikessmall7b>
+  <entitydescription.ekgunnery_meleespikessmall7b>A rugged metal spike attached to the submarine. Crude but effective defensive measure.</entitydescription.ekgunnery_meleespikessmall7b>
+  <entityname.ekgunnery_meleespikestogglesmall1>Shell Toggle Spike (Small)</entityname.ekgunnery_meleespikestogglesmall1>
+  <entitydescription.ekgunnery_meleespikestogglesmall1>A defensive spike that can be extended or retracted on demand.</entitydescription.ekgunnery_meleespikestogglesmall1>
+  <entityname.ekgunnery_meleespikestogglesmall1b>Shell Toggle Spike (Small)</entityname.ekgunnery_meleespikestogglesmall1b>
+  <entitydescription.ekgunnery_meleespikestogglesmall1b>A defensive spike that can be extended or retracted on demand.</entitydescription.ekgunnery_meleespikestogglesmall1b>
+  <entityname.ekgunnery_meleerammingprow1>Ramming Prow (Small)</entityname.ekgunnery_meleerammingprow1>
+  <entitydescription.ekgunnery_meleerammingprow1>Damages creatures and structures in front of it when activated.</entitydescription.ekgunnery_meleerammingprow1>
+  <entityname.ekgunnery_meleerammingprow1creatures>Ramming Prow Creatures (Small)</entityname.ekgunnery_meleerammingprow1creatures>
+  <entitydescription.ekgunnery_meleerammingprow1creatures>Damages only creatures in front of it when activated.</entitydescription.ekgunnery_meleerammingprow1creatures>
+  <entityname.ekgunnery_meleerammingprow2>Ramming Prow (Medium)</entityname.ekgunnery_meleerammingprow2>
+  <entitydescription.ekgunnery_meleerammingprow2>Damages creatures and structures in front of it when activated.</entitydescription.ekgunnery_meleerammingprow2>
+  <entityname.ekgunnery_meleerammingprow2creatures>Ramming Prow Creatures (Medium)</entityname.ekgunnery_meleerammingprow2creatures>
+  <entitydescription.ekgunnery_meleerammingprow2creatures>Damages only creatures in front of it when activated.</entitydescription.ekgunnery_meleerammingprow2creatures>
 </infotexts>

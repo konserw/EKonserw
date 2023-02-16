@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Auxiliary Turret Loaders -->
+  <Item name="" identifier="ekgunnery_newauxiliaryblankloader" tags="ekgunnery_auxiliaryammosource" category="Machine,Weapon" linkable="true" allowedlinks="ekgunnery_auxiliaryturret" scale="0.5">
+    <SwappableItem canbebought="false" origin="80,96" />
+    <UpgradePreviewSprite scale="2.0" texture="Content/UI/WeaponUI.png" sourcerect="576,960,64,64" origin="0.5,0.45" />
+    <Sprite name="Auxiliary Blank Loader" texture="%ModDir%/Items/Weapons/ekgunnery_new_auxiliaryloaders.png" depth="0.78" sourcerect="0,0,160,192" origin="0.5,0.5" />
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <output name="condition_out" displayname="connection.conditionout" />
+    </ConnectionPanel>
+  </Item>
+  <Item name="" identifier="ekgunnery_newauxiliarymininglaserloader" tags="ekgunnery_mininglaserequipment,ekgunnery_mininglaserammosource,ekgunnery_auxiliaryammosource" category="Machine,Weapon" linkable="true" allowedlinks="ekgunnery_mininglaser" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+    <SwappableItem canbebought="false" origin="80,96" spawnwithid="ekgunnery_mininglaserammo" />
+    <Sprite name="Auxiliary Mining Laser Loader" texture="%ModDir%/Items/Weapons/ekgunnery_new_auxiliaryloaders.png" depth="0.78" sourcerect="0,192,160,192" origin="0.5,0.5" />
+    <DecorativeSprite name="Auxiliary Mining Laser Loader Back" texture="%ModDir%/Items/Weapons/ekgunnery_new_auxiliaryloaders.png" depth="0.8" sourcerect="160,192,160,192" origin="0.5,0.5" offset="0,0" />
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="5" mindeteriorationdelay="120" maxdeteriorationdelay="600" MinDeteriorationCondition="0" RepairThreshold="75" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
+      <StatusEffect type="InWater" target="This" condition="-0.15" />
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="-0.1,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="55" />
+      <RequiredItem items="wrench" type="Equipped" />
+      <ParticleEmitter particle="damagebubbles" particleburstamount="2" particleburstinterval="2.0" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemin="0" anglemax="359" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+      <ParticleEmitter particle="smoke" particleburstamount="3" particleburstinterval="0.5" particlespersecond="2" scalemin="1" scalemax="2.5" anglemin="0" anglemax="359" velocitymin="-50" velocitymax="50" mincondition="15.0" maxcondition="50.0" />
+      <ParticleEmitter particle="heavysmoke" particleburstinterval="0.25" particlespersecond="2" scalemin="2.5" scalemax="5.0" mincondition="0.0" maxcondition="15.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>
+    </Repairable>
+    <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="80,-115" itemsperrow="1" itemrotation="0" canbeselected="true" msg="ItemMsgInteractSelect" containedspritedepth="0.79">
+      <GuiFrame relativesize="0.3,0.3" anchor="Center" style="ItemUI" />
+      <Containable items="ekgunnery_mininglaserammo" />
+      <StatusEffect type="OnUse" target="Contained">
+        <RequiredItem items="ekgunnery_mininglaserammo" type="Contained" />
+        <Use />
+      </StatusEffect>
+    </ItemContainer>
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <output name="condition_out" displayname="connection.conditionout" />
+    </ConnectionPanel>
+  </Item>
+  <!--
+  <Item name="Auxiliary Grappling Hook Loader" identifier="ekgunnery_newauxiliarygrapplinghookloader" tags="ekgunnery_grapplinghookequipment,ekgunnery_grapplinghookammosource,ekgunnery_auxiliaryammosource" category="Machine,Weapon" 
+		description="Supplies power connection to a linked mining laser turret"
+		linkable="true" allowedlinks="ekgunnery_grapplinghook" scale="0.5" damagedbyexplosions="true" explosiondamagemultiplier="0.2">
+    <SwappableItem canbebought="false" origin="84,357" spawnwithid="ekgunnery_grapplinghookammo"/>
+    <Sprite name="Auxiliary Mining Laser Loader" texture="Mods/EK Gunnery/Items/Weapons/ekgunnery_new_auxiliaryloaders.png" depth="0.78" sourcerect="0,192,160,192" origin="0.5,0.5" />
+    <DecorativeSprite name="Auxiliary Mining Laser Loader Back" texture="Mods/EK Gunnery/Items/Weapons/ekgunnery_new_auxiliaryloaders.png" depth="0.8" sourcerect="160,192,160,192" origin="0.5,0.5" offset="0,0" />
+    <Repairable selectkey="Action" header="mechanicalrepairsheader" deteriorationspeed="5" mindeteriorationdelay="120" maxdeteriorationdelay="600" MinDeteriorationCondition="0" RepairThreshold="75" fixDurationHighSkill="5" fixDurationLowSkill="25" msg="ItemMsgRepairWrench" hudpriority="10">
+      <StatusEffect type="InWater" target="This" condition="-0.15" />
+      <GuiFrame relativesize="0.2,0.16" minsize="400,180" maxsize="480,216" anchor="Center" relativeoffset="-0.1,0.27" style="ItemUI" />
+      <RequiredSkill identifier="mechanical" level="55" />
+      <RequiredItem items="wrench" type="Equipped" />
+      <ParticleEmitter particle="damagebubbles" particleburstamount="2" particleburstinterval="2.0" particlespersecond="2" scalemin="0.5" scalemax="1.5" anglemin="0" anglemax="359" velocitymin="-10" velocitymax="10" mincondition="0.0" maxcondition="50.0" />
+      <ParticleEmitter particle="smoke" particleburstamount="3" particleburstinterval="0.5" particlespersecond="2" scalemin="1" scalemax="2.5" anglemin="0" anglemax="359" velocitymin="-50" velocitymax="50" mincondition="15.0" maxcondition="50.0" />
+      <ParticleEmitter particle="heavysmoke" particleburstinterval="0.25" particlespersecond="2" scalemin="2.5" scalemax="5.0" mincondition="0.0" maxcondition="15.0" />
+      <StatusEffect type="OnFailure" target="Character" targetlimbs="LeftHand,RightHand">
+        <Sound file="Content/Items/MechanicalRepairFail.ogg" range="1000" />
+        <Affliction identifier="lacerations" strength="5" />
+        <Affliction identifier="stun" strength="5" />
+      </StatusEffect>
+    </Repairable>
+    <ItemContainer hideitems="true" drawinventory="false" capacity="1" canbeselected="false" msg="ItemMsgInteractSelect" ShowConditionInContainedStateIndicator="true" SpawnWithId="ekgunnery_grapplinghookammo" >
+      <Containable items="ekgunnery_grapplinghookammo" />
+      <StatusEffect type="Always" target="This" disabledeltatime="true">
+        <SpawnItem identifiers="ekgunnery_grapplinghookammo" spawnposition="ThisInventory" />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  -->
+</Items>
