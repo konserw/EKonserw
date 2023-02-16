@@ -4,7 +4,7 @@
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="448,960,64,64" origin="0.5,-0.05" />
     <Sprite texture="%ModDir%/Items/Pump/variants_pumps1.png" depth="0.055" sourcerect="0,0,144,80" origin="0.5,-0.05" />
     <InfectedSprite texture="Content/Items/Pump/Pumps.png" offset="0,0" sourcerect="409,443,428,216" origin="0.5,0.4" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" offset="0,0" sourcerect="273,708,219,132" origin="0.5,0.4" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" offset="0,0" sourcerect="273,708,219,132" origin="0.5,0.4" />
     <BrokenSprite texture="%ModDir%/Items/Pump/variants_pumps1.png" depth="0.055" sourcerect="144,0,144,80" origin="0.5,-0.05" maxcondition="80" fadein="true" />
     <!-- glitched sprite depth
 	<DecorativeSprite texture="%ModDir%/Items/Pump/variants_pumps1.png" depth="0.795" offset="0,-32" sourcerect="0,80,144,16" origin="0.5,0.5" />

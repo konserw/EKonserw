@@ -13,8 +13,6 @@
   <entitydescription.ekdockyard_divingsuitlocker2>Neatly stores multiple diving suits.</entitydescription.ekdockyard_divingsuitlocker2>
   <entityname.ekdockyard_divingsuitlocker_secure>Secure Diving Suit Locker</entityname.ekdockyard_divingsuitlocker_secure>
   <entitydescription.ekdockyard_divingsuitlocker_secure>Secured-access storage for one dive-ready suit.</entitydescription.ekdockyard_divingsuitlocker_secure>
-  <entityname.ekdockyard_divingsuitlocker_respawn>Disposable Diving Suit Locker</entityname.ekdockyard_divingsuitlocker_respawn>
-  <entitydescription.ekdockyard_divingsuitlocker_respawn>Storage for one emergency pressure suit. Restores suit oxygen when powered.</entitydescription.ekdockyard_divingsuitlocker_respawn>
   <entityname.ekdockyard_cargocompartment_style1>Cargo Compartment</entityname.ekdockyard_cargocompartment_style1>
   <entitydescription.ekdockyard_cargocompartment_style1></entitydescription.ekdockyard_cargocompartment_style1>
   <entityname.ekdockyard_cargocompartment_style2>Cargo Compartment</entityname.ekdockyard_cargocompartment_style2>
@@ -352,37 +350,6 @@
   <entitydescription.ekdockyard_customgaugemarkings_turret1a></entitydescription.ekdockyard_customgaugemarkings_turret1a>
   <entityname.ekdockyard_customgaugemarkings_turret1b>Gauge Turret Markings</entityname.ekdockyard_customgaugemarkings_turret1b>
   <entitydescription.ekdockyard_customgaugemarkings_turret1b></entitydescription.ekdockyard_customgaugemarkings_turret1b>
-  <!-- custom_lights.xml -->
-  <entityname.ekdockyard_emergencylightadvanced>Advanced Emergency Light</entityname.ekdockyard_emergencylightadvanced>
-  <entitydescription.ekdockyard_emergencylightadvanced></entitydescription.ekdockyard_emergencylightadvanced>
-  <entityname.ekdockyard_vanillalightadvanced01>Advanced Lamp</entityname.ekdockyard_vanillalightadvanced01>
-  <entitydescription.ekdockyard_vanillalightadvanced01></entitydescription.ekdockyard_vanillalightadvanced01>
-  <entityname.ekdockyard_vanillalightadvanced02>Advanced Lamp</entityname.ekdockyard_vanillalightadvanced02>
-  <entitydescription.ekdockyard_vanillalightadvanced02></entitydescription.ekdockyard_vanillalightadvanced02>
-  <entityname.ekdockyard_vanillalightadvanced03>Advanced Lamp</entityname.ekdockyard_vanillalightadvanced03>
-  <entitydescription.ekdockyard_vanillalightadvanced03></entitydescription.ekdockyard_vanillalightadvanced03>
-  <entityname.ekdockyard_vanillalightadvanced04>Advanced Lamp</entityname.ekdockyard_vanillalightadvanced04>
-  <entitydescription.ekdockyard_vanillalightadvanced04></entitydescription.ekdockyard_vanillalightadvanced04>
-  <entityname.ekdockyard_vanillalightadvanced05>Advanced Lamp</entityname.ekdockyard_vanillalightadvanced05>
-  <entitydescription.ekdockyard_vanillalightadvanced05></entitydescription.ekdockyard_vanillalightadvanced05>
-  <entityname.ekdockyard_lightadvanced01>Advanced Lamp</entityname.ekdockyard_lightadvanced01>
-  <entitydescription.ekdockyard_lightadvanced01></entitydescription.ekdockyard_lightadvanced01>
-  <entityname.ekdockyard_lightadvanced02>Advanced Lamp</entityname.ekdockyard_lightadvanced02>
-  <entitydescription.ekdockyard_lightadvanced02></entitydescription.ekdockyard_lightadvanced02>
-  <entityname.ekdockyard_lightadvanced03>Advanced Lamp</entityname.ekdockyard_lightadvanced03>
-  <entitydescription.ekdockyard_lightadvanced03></entitydescription.ekdockyard_lightadvanced03>
-  <entityname.ekdockyard_lightadvanced04>Advanced Lamp</entityname.ekdockyard_lightadvanced04>
-  <entitydescription.ekdockyard_lightadvanced04></entitydescription.ekdockyard_lightadvanced04>
-  <entityname.ekdockyard_lightadvanced05>Advanced Lamp</entityname.ekdockyard_lightadvanced05>
-  <entitydescription.ekdockyard_lightadvanced05></entitydescription.ekdockyard_lightadvanced05>
-  <entityname.ekdockyard_lightspinner1>Rotating Alarm Lamp</entityname.ekdockyard_lightspinner1>
-  <entitydescription.ekdockyard_lightspinner1></entitydescription.ekdockyard_lightspinner1>
-  <entityname.ekdockyard_lightindicator1>Indicator Light</entityname.ekdockyard_lightindicator1>
-  <entitydescription.ekdockyard_lightindicator1></entitydescription.ekdockyard_lightindicator1>
-  <entityname.ekdockyard_lightindicator2>Indicator Light</entityname.ekdockyard_lightindicator2>
-  <entitydescription.ekdockyard_lightindicator2></entitydescription.ekdockyard_lightindicator2>
-  <entityname.ekdockyard_lightindicator3>Indicator Light</entityname.ekdockyard_lightindicator3>
-  <entitydescription.ekdockyard_lightindicator3></entitydescription.ekdockyard_lightindicator3>
   <!-- custom_submarine_function.xml -->
   <entityname.ekdockyard_function_icebreaker1>Icebreaker Hull (Small)</entityname.ekdockyard_function_icebreaker1>
   <entitydescription.ekdockyard_function_icebreaker1>Damages ice walls and spires.</entitydescription.ekdockyard_function_icebreaker1>
@@ -415,8 +382,6 @@
   <entitydescription.ekdockyard_kineticcapacitor1>A large flywheel and transmission system. Accumulated energy can be used to drive high-power systems like engines.</entitydescription.ekdockyard_kineticcapacitor1>
   <entityname.ekdockyard_kineticcapacitor2>Kinetic Capacitor</entityname.ekdockyard_kineticcapacitor2>
   <entitydescription.ekdockyard_kineticcapacitor2>A large flywheel and transmission system. Accumulated energy can be used to drive high-power systems like engines.</entitydescription.ekdockyard_kineticcapacitor2>
-  <entityname.ekdockyard_capacitor1>Capacitor</entityname.ekdockyard_capacitor1>
-  <entitydescription.ekdockyard_capacitor1>High output power accumulator capable of rapid charging cycles. Can be used as an alternative to the supercapacitor at the cost of a lower max charge rate.</entitydescription.ekdockyard_capacitor1>
   <!-- fabricator_variants.xml -->
   <entityname.ekdockyard_fabricator_adaptive>Fabricator (Adaptive)</entityname.ekdockyard_fabricator_adaptive>
   <entitydescription.ekdockyard_fabricator_adaptive>An improved fabricator unit with adaptive control computer and improved manufacturing tolerances. Lower calibration skill requirements.</entitydescription.ekdockyard_fabricator_adaptive>
@@ -492,79 +457,6 @@
   <entitydescription.ekdockyard_thrusterforcer_mediumalt_300></entitydescription.ekdockyard_thrusterforcer_mediumalt_300>
   <entityname.ekdockyard_thrusterengine_fixedmediumalt500>Fixed Thruster E 05</entityname.ekdockyard_thrusterengine_fixedmediumalt500>
   <entitydescription.ekdockyard_thrusterengine_fixedmediumalt500>Fixed-mount electrically driven thruster for manuvering the sub laterally. Output thrust is roughtly equivalent to that of a 500kW engine.</entitydescription.ekdockyard_thrusterengine_fixedmediumalt500>
-  <!-- environment_hazards.xml -->
-  <entityname.ekdockyard_customenvironmenthazard_radiationemitter1>Env Radiation Source</entityname.ekdockyard_customenvironmenthazard_radiationemitter1>
-  <entitydescription.ekdockyard_customenvironmenthazard_radiationemitter1>Ambient Radiation Emitter (1.5m Range)</entitydescription.ekdockyard_customenvironmenthazard_radiationemitter1>
-  <entityname.ekdockyard_customenvironmenthazard_radiationemitter2>Env Radiation Source</entityname.ekdockyard_customenvironmenthazard_radiationemitter2>
-  <entitydescription.ekdockyard_customenvironmenthazard_radiationemitter2>Ambient Radiation Emitter (3m Range)</entitydescription.ekdockyard_customenvironmenthazard_radiationemitter2>
-  <entityname.ekdockyard_customenvironmenthazard_radiationemitter3>Env Radiation Source</entityname.ekdockyard_customenvironmenthazard_radiationemitter3>
-  <entitydescription.ekdockyard_customenvironmenthazard_radiationemitter3>Ambient Radiation Emitter (5m Range)</entitydescription.ekdockyard_customenvironmenthazard_radiationemitter3>
-  <entityname.ekdockyard_customenvironmenthazard_radiationemitter4>Env Radiation Source</entityname.ekdockyard_customenvironmenthazard_radiationemitter4>
-  <entitydescription.ekdockyard_customenvironmenthazard_radiationemitter4>Ambient Radiation Emitter (7.5m Range)</entitydescription.ekdockyard_customenvironmenthazard_radiationemitter4>
-  <entityname.ekdockyard_customenvironmenthazard_radiationemitter5>Env Radiation Source</entityname.ekdockyard_customenvironmenthazard_radiationemitter5>
-  <entitydescription.ekdockyard_customenvironmenthazard_radiationemitter5>Ambient Radiation Emitter (10m Range)</entitydescription.ekdockyard_customenvironmenthazard_radiationemitter5>
-  <entityname.ekdockyard_customenvironmenthazard_radiationemitter6>Env Radiation Source</entityname.ekdockyard_customenvironmenthazard_radiationemitter6>
-  <entitydescription.ekdockyard_customenvironmenthazard_radiationemitter6>Ambient Radiation Emitter (20m Range)</entitydescription.ekdockyard_customenvironmenthazard_radiationemitter6>
-  <entityname.ekdockyard_customenvironmenthazard_psychosisemitter1>Env Psychosis Source</entityname.ekdockyard_customenvironmenthazard_psychosisemitter1>
-  <entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter1>Ambient Psychosis Emitter (1.5m Range)</entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter1>
-  <entityname.ekdockyard_customenvironmenthazard_psychosisemitter2>Env Psychosis Source</entityname.ekdockyard_customenvironmenthazard_psychosisemitter2>
-  <entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter2>Ambient Psychosis Emitter (3m Range)</entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter2>
-  <entityname.ekdockyard_customenvironmenthazard_psychosisemitter3>Env Psychosis Source</entityname.ekdockyard_customenvironmenthazard_psychosisemitter3>
-  <entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter3>Ambient Psychosis Emitter (5m Range)</entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter3>
-  <entityname.ekdockyard_customenvironmenthazard_psychosisemitter4>Env Psychosis Source</entityname.ekdockyard_customenvironmenthazard_psychosisemitter4>
-  <entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter4>Ambient Psychosis Emitter (7.5m Range)</entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter4>
-  <entityname.ekdockyard_customenvironmenthazard_psychosisemitter5>Env Psychosis Source</entityname.ekdockyard_customenvironmenthazard_psychosisemitter5>
-  <entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter5>Ambient Psychosis Emitter (10m Range)</entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter5>
-  <entityname.ekdockyard_customenvironmenthazard_psychosisemitter6>Env Psychosis Source</entityname.ekdockyard_customenvironmenthazard_psychosisemitter6>
-  <entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter6>Ambient Psychosis Emitter (20m Range)</entitydescription.ekdockyard_customenvironmenthazard_psychosisemitter6>
-  <entityname.ekdockyard_customenvironmenthazard_burnemitter1>Env Burn Source</entityname.ekdockyard_customenvironmenthazard_burnemitter1>
-  <entitydescription.ekdockyard_customenvironmenthazard_burnemitter1>Ambient Burn Emitter (1.5m Range)</entitydescription.ekdockyard_customenvironmenthazard_burnemitter1>
-  <entityname.ekdockyard_customenvironmenthazard_burnemitter2>Env Burn Source</entityname.ekdockyard_customenvironmenthazard_burnemitter2>
-  <entitydescription.ekdockyard_customenvironmenthazard_burnemitter2>Ambient Burn Emitter (3m Range)</entitydescription.ekdockyard_customenvironmenthazard_burnemitter2>
-  <entityname.ekdockyard_customenvironmenthazard_burnemitter3>Env Burn Source</entityname.ekdockyard_customenvironmenthazard_burnemitter3>
-  <entitydescription.ekdockyard_customenvironmenthazard_burnemitter3>Ambient Burn Emitter (5m Range)</entitydescription.ekdockyard_customenvironmenthazard_burnemitter3>
-  <entityname.ekdockyard_customenvironmenthazard_burnemitter4>Env Burn Source</entityname.ekdockyard_customenvironmenthazard_burnemitter4>
-  <entitydescription.ekdockyard_customenvironmenthazard_burnemitter4>Ambient Burn Emitter (7.5m Range)</entitydescription.ekdockyard_customenvironmenthazard_burnemitter4>
-  <entityname.ekdockyard_customenvironmenthazard_burnemitter5>Env Burn Source</entityname.ekdockyard_customenvironmenthazard_burnemitter5>
-  <entitydescription.ekdockyard_customenvironmenthazard_burnemitter5>Ambient Burn Emitter (10m Range)</entitydescription.ekdockyard_customenvironmenthazard_burnemitter5>
-  <entityname.ekdockyard_customenvironmenthazard_burnemitter6>Env Burn Source</entityname.ekdockyard_customenvironmenthazard_burnemitter6>
-  <entitydescription.ekdockyard_customenvironmenthazard_burnemitter6>Ambient Burn Emitter (20m Range)</entitydescription.ekdockyard_customenvironmenthazard_burnemitter6>
-  <entityname.ekdockyard_customenvironmenthazard_oxygenemitter1>Env Oxygen Source</entityname.ekdockyard_customenvironmenthazard_oxygenemitter1>
-  <entitydescription.ekdockyard_customenvironmenthazard_oxygenemitter1>Ambient Oxygen Emitter</entitydescription.ekdockyard_customenvironmenthazard_oxygenemitter1>
-  <entityname.ekdockyard_customenvironmenthazard_oxygenremover1>Env Oxygen Remover</entityname.ekdockyard_customenvironmenthazard_oxygenremover1>
-  <entitydescription.ekdockyard_customenvironmenthazard_oxygenremover1>Ambient Oxygen Remover</entitydescription.ekdockyard_customenvironmenthazard_oxygenremover1>
-  <!-- environment_particles.xml -->
-  <entityname.ekdockyard_customenvironmentparticles_precipitationsnow1small>Env Particles Snow 1</entityname.ekdockyard_customenvironmentparticles_precipitationsnow1small>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow1small>Light Snowfall (Small)</entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow1small>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationsnow1medium>Env Particles Snow 1</entityname.ekdockyard_customenvironmentparticles_precipitationsnow1medium>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow1medium>Light Snowfall (Medium)</entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow1medium>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationsnow1large>Env Particles Snow 1</entityname.ekdockyard_customenvironmentparticles_precipitationsnow1large>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow1large>Light Snowfall (Large)</entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow1large>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationsnow2small>Env Particles Snow 2</entityname.ekdockyard_customenvironmentparticles_precipitationsnow2small>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow2small>Heavy Snow (Small)</entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow2small>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationsnow2medium>Env Particles Snow 2</entityname.ekdockyard_customenvironmentparticles_precipitationsnow2medium>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow2medium>Heavy Snow (Medium)</entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow2medium>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationsnow2large>Env Particles Snow 2</entityname.ekdockyard_customenvironmentparticles_precipitationsnow2large>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow2large>Heavy Snow (Large)</entitydescription.ekdockyard_customenvironmentparticles_precipitationsnow2large>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationrain1small>Env Particles Rain 1</entityname.ekdockyard_customenvironmentparticles_precipitationrain1small>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationrain1small>Light Rain (Small)</entitydescription.ekdockyard_customenvironmentparticles_precipitationrain1small>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationrain1medium>Env Particles Rain 1</entityname.ekdockyard_customenvironmentparticles_precipitationrain1medium>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationrain1medium>Light Rain (Medium)</entitydescription.ekdockyard_customenvironmentparticles_precipitationrain1medium>
-  <entityname.ekdockyard_customenvironmentparticles_precipitationrain1large>Env Particles Rain 1</entityname.ekdockyard_customenvironmentparticles_precipitationrain1large>
-  <entitydescription.ekdockyard_customenvironmentparticles_precipitationrain1large>Light Rain (Large)</entitydescription.ekdockyard_customenvironmentparticles_precipitationrain1large>
-  <entityname.ekdockyard_customenvironment_lightning1>Env Lightning 1</entityname.ekdockyard_customenvironment_lightning1>
-  <entitydescription.ekdockyard_customenvironment_lightning1>Near Lightning and Thunder</entitydescription.ekdockyard_customenvironment_lightning1>
-  <entityname.ekdockyard_customenvironment_lightning2>Env Lightning 2</entityname.ekdockyard_customenvironment_lightning2>
-  <entitydescription.ekdockyard_customenvironment_lightning2>Distant Lightning and Thunder</entitydescription.ekdockyard_customenvironment_lightning2>
-  <!-- environment_sounds.xml -->
-  <entityname.ekdockyard_customenvironmentsounds_rain1small>Env Sound Rain 1</entityname.ekdockyard_customenvironmentsounds_rain1small>
-  <entitydescription.ekdockyard_customenvironmentsounds_rain1small>Light Rain (Small)</entitydescription.ekdockyard_customenvironmentsounds_rain1small>
-  <entityname.ekdockyard_customenvironmentsounds_rain1medium>Env Sound Rain 1</entityname.ekdockyard_customenvironmentsounds_rain1medium>
-  <entitydescription.ekdockyard_customenvironmentsounds_rain1medium>Light Rain (Medium)</entitydescription.ekdockyard_customenvironmentsounds_rain1medium>
-  <entityname.ekdockyard_customenvironmentsounds_thunder2medium>Env Sound Thunder 1</entityname.ekdockyard_customenvironmentsounds_thunder2medium>
-  <entitydescription.ekdockyard_customenvironmentsounds_thunder2medium>Distant Thunder (medium)</entitydescription.ekdockyard_customenvironmentsounds_thunder2medium>
-  <entityname.ekdockyard_customenvironmentsounds_thunder2large>Env Sound Thunder</entityname.ekdockyard_customenvironmentsounds_thunder2large>
-  <entitydescription.ekdockyard_customenvironmentsounds_thunder2large>Distant Thunder (large)</entitydescription.ekdockyard_customenvironmentsounds_thunder2large>
   <!-- generator.xml -->
   <entityname.ekdockyard_reactor_mini>Nuclear Reactor (Mini)</entityname.ekdockyard_reactor_mini>
   <entitydescription.ekdockyard_reactor_mini>Usable device for generating electrical power. A successfull miniaturization of small-modular-reactor architecture, compact enough to see use on some shuttle craft for extended range.</entitydescription.ekdockyard_reactor_mini>
@@ -593,8 +485,6 @@
   <entitydescription.ekdockyard_reactorfusion_small>Miniaturized magnetic-confinement fusion reactor utilizing a spherical Tokamak configuration. Capable of using a wide variety of fuel mixtures.</entitydescription.ekdockyard_reactorfusion_small>
   <entityname.ekdockyard_reactorfusion_medium>Fusion Reactor (Medium)</entityname.ekdockyard_reactorfusion_medium>
   <entitydescription.ekdockyard_reactorfusion_medium>Compact Stellarator fusion reactor which circulates particles along a twisting path for improved stability. Capable of using a wide variety of fuel mixtures.</entitydescription.ekdockyard_reactorfusion_medium>
-  <entityname.ekdockyard_rtg_small>Radio-Thermal Generator (Small)</entityname.ekdockyard_rtg_small>
-  <entitydescription.ekdockyard_rtg_small>Generates small amounts of power from radioactive decay. Sometimes used as a power source on drones and emergency shuttles due to its high reliability.</entitydescription.ekdockyard_rtg_small>
   <!-- dynamic_fins.xml -->
   <entityname.ekdockyard_dynamicfinvanilla1>Dynamic Fin 1A</entityname.ekdockyard_dynamicfinvanilla1>
   <entitydescription.ekdockyard_dynamicfinvanilla1></entitydescription.ekdockyard_dynamicfinvanilla1>

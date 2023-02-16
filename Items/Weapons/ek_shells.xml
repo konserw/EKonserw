@@ -259,8 +259,7 @@
     </ItemContainer>
   </Item>
   <Item name="ek_railgun_flechette_pellet" identifier="ek_railgun_flechette_pellet" category="Misc,Weapon" scale="0.32" sonarsize="2" hideinmenus="true">
-    <!--<Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="143,414,113,9" depth="0.55" />-->
-    <Sprite texture="weapons_ek.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
     <Body width="40" height="40" density="15" />
     <Projectile characterusable="false" launchimpulse="100.0" impulsespread="0.25" spread="50" maxtargetstohit="2">
       <Attack structuredamage="14" severlimbsprobability="0.3" penetration="0.3">
@@ -1011,41 +1010,8 @@
       </StatusEffect>
     </LightComponent>
   </Item>
-  <!--
-  <Item name="ek_railgun_flare_effect" identifier="ek_railgun_flare_effect" Scale="0.5" impactsoundtag="impact_soft" sonarsize="5" hideinmenus="true">
-    <Sprite texture="weapons_ek.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
-    <Body width="50" height="50" density="10.5" />
-	<AiTarget sightrange="6000.0" maxsoundrange="8000" minsoundrange="0" fadeouttime="15" sonardisruption="5"/>
-    <LightComponent characterusable="false" LightColor="255,50,50,255" Flicker="0.5" range="2048" IsOn="true">
-      <LightTexture texture="Mods/EK Armory/Lights/pointlight_bright_hires.png" origin="0.5, 0.5" size="1.2,1.2" />
-      <sound file="Content/Items/Tools/FlareLoop.ogg" type="OnActive" range="2048.0" loop="true" />
-      <StatusEffect type="OnActive" target="This" Condition="-1">
-        <Conditional PhysicsBodyActive="eq true" />
-        <ParticleEmitter particle="flare" particlespersecond="5" scalemin="5" scalemax="5"/>
-        <ParticleEmitter particle="ekflarelight1static" particlespersecond="30" scalemin="2.0" scalemax="2.75" velocitymin="0" velocitymax="35" distancemin="-32,-32" distancemax="32,32"/>
-        <ParticleEmitter particle="ekthermitebubbles" particlespersecond="6" />
-      </StatusEffect>
-      <StatusEffect type="OnActive" target="This" disabledeltatime="true" delay="0.1" />
-      <StatusEffect type="OnActive" target="This" Condition="-1">
-        <Conditional Condition="gt 88" />
-        <ParticleEmitter particle="bubbles" particlespersecond="20" />
-      </StatusEffect>
-      <StatusEffect type="OnActive" target="This" setvalue="true" drawinventory="true">
-        <Conditional Condition="lt 100" />
-      </StatusEffect>
-    </LightComponent>
-    <LightComponent characterusable="false" LightColor="255,50,50,255" Flicker="0.4" range="2048" IsOn="true">
-      <LightTexture texture="Mods/EK Armory/Lights/pointlight_ultrabright_hires.png" origin="0.5, 0.5" size="1.2,1.2" />
-    </LightComponent>
-    <ItemComponent>
-      <StatusEffect type="OnBroken" target="This">
-        <Remove />
-      </StatusEffect>
-    </ItemComponent>
-  </Item>
-  -->
   <Item name="ek_railgun_flare_effect" identifier="ek_railgun_flare_effect" tags="decoy,light,provocative" Scale="0.5" impactsoundtag="impact_soft" sonarsize="5" hideinmenus="true" noninteractable="true">
-    <Sprite texture="weapons_ek.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
     <Body width="50" height="50" density="10.5" />
     <AiTarget sightrange="6000.0" maxsoundrange="8000" minsoundrange="0" fadeouttime="15" sonardisruption="0.4" />
     <LightComponent characterusable="false" LightColor="255,50,50,255" Flicker="0.5" range="2048" IsOn="true" shadows="false" drawbehindsubs="true">

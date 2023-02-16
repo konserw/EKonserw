@@ -502,7 +502,7 @@
     <BrokenSprite texture="%ModDir%/Items/Tools/ekutility_placeablemachines.png" sourcerect="224,0,224,136" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Tools/ekutility_placeablemachines.png" sourcerect="448,0,224,136" depth="0.8" maxcondition="5" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <Body width="205" height="120" density="25" />
     <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="ItemMsgDetachWrench" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="false">
       <RequiredItem identifier="wrench" type="Equipped" />
@@ -819,7 +819,7 @@
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="448,960,64,64" origin="0.5,0.45" />
     <Sprite texture="%ModDir%/Items/Tools/ekutility_placeablemachines.png" depth="0.8" canflipx="false" sourcerect="128,352,144,80" origin="0.5,0.5" />
     <InfectedSprite texture="Content/Items/Pump/Pumps.png" sourcerect="528,723,219,132" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="273,708,219,132" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="273,708,219,132" origin="0.5,0.5" />
     <BrokenSprite texture="%ModDir%/Items/Tools/ekutility_placeablemachines.png" sourcerect="272,352,144,80" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Tools/ekutility_placeablemachines.png" sourcerect="416,352,144,80" depth="0.8" maxcondition="0" />
     <Body width="120" height="78" density="30" />

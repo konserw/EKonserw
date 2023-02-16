@@ -51,5 +51,7 @@
   <Item file="%ModDir%/Items/Weapons/ek_pulselaserammo.xml" />
   <Item file="%ModDir%/Items/Containers/ek_containers.xml" />
   <Particles file="%ModDir%/Particles/ParticlePrefabs2.xml" />
+  <Character file="%ModDir%/Characters/Homing Shell/Homingshell.xml" />
+  <Character file="%ModDir%/Characters/Nuclear Homing Shell/Nuclearhomingshell.xml" />
   <Text file="%ModDir%/Texts/EnglishEkArmory.xml" />
 </contentpackage>

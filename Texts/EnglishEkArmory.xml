@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
   <!-- Characters -->
-  <character.gundrone>Gun Drone</character.gundrone>
-  <character.walkerdrone>Walker Drone</character.walkerdrone>
   <character.homingshell>Railgun Homing Shell</character.homingshell>
   <character.nuclearhomingshell>Nuclear Homing Shell</character.nuclearhomingshell>
   <!-- ek_containers.xml -->
@@ -10,8 +8,6 @@
   <entitydescription.ek_weapons_cabinet></entitydescription.ek_weapons_cabinet>
   <entityname.ek_weapons_cabinet_bottomhalf>Weapons Cabinet</entityname.ek_weapons_cabinet_bottomhalf>
   <entitydescription.ek_weapons_cabinet_bottomhalf></entitydescription.ek_weapons_cabinet_bottomhalf>
-  <entityname.ek_weapons_case>Weapons Case</entityname.ek_weapons_case>
-  <entitydescription.ek_weapons_case></entitydescription.ek_weapons_case>
   <!-- ek_chaingunammo.xml -->
   <entityname.ek_chaingunammo_large>Extended Chaingun Ammunition Box</entityname.ek_chaingunammo_large>
   <entitydescription.ek_chaingunammo_large></entitydescription.ek_chaingunammo_large>
@@ -66,18 +62,6 @@
   <entitydescription.ek_railshell_flechette>A specialized railgun shell that when fired bursts into multiple piercing projectiles.</entitydescription.ek_railshell_flechette>
   <entityname.ek_railgun_flechette_pellet>ek_railgun_flechette_pellet</entityname.ek_railgun_flechette_pellet>
   <entitydescription.ek_railgun_flechette_pellet></entitydescription.ek_railgun_flechette_pellet>
-  <entityname.ek_railgun_halfshells>Railgun Halfshells</entityname.ek_railgun_halfshells>
-  <entitydescription.ek_railgun_halfshells>Two half-length railgun shells. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshells>
-  <entityname.ek_railgun_halfshell>Railgun Halfshell</entityname.ek_railgun_halfshell>
-  <entitydescription.ek_railgun_halfshell>A half-length railgun shell. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshell>
-  <entityname.ek_railgun_halfshells_piercingslug>Railgun Piercing Halfshells</entityname.ek_railgun_halfshells_piercingslug>
-  <entitydescription.ek_railgun_halfshells_piercingslug>Two half-length armor-piercing shells. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshells_piercingslug>
-  <entityname.ek_railgun_halfshell_piercingslug>Railgun Piercing Halfshell</entityname.ek_railgun_halfshell_piercingslug>
-  <entitydescription.ek_railgun_halfshell_piercingslug>A half-length piercing shell. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshell_piercingslug>
-  <entityname.ek_railgun_halfshells_alien>Railgun Physicorium Halfshells</entityname.ek_railgun_halfshells_alien>
-  <entitydescription.ek_railgun_halfshells_alien>Two half-length physicorium shells. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshells_alien>
-  <entityname.ek_railgun_halfshell_alien>Physicorium Railgun Halfshell</entityname.ek_railgun_halfshell_alien>
-  <entitydescription.ek_railgun_halfshell_alien>A half-length physicorium shell. Although reduced in stopping-power compared to a standard shell, they serve well at reducing cost and saving space.</entitydescription.ek_railgun_halfshell_alien>
   <entityname.ek_railshell_homing>Railgun Homing Shell</entityname.ek_railshell_homing>
   <entitydescription.ek_railshell_homing>A highly advanced railgun shell with thermal tracking and guidance system, will automatically track to nearby hostile life forms when fired.</entitydescription.ek_railshell_homing>
   <entityname.ek_railshell_nuclearhoming>Nuclear Homing Shell</entityname.ek_railshell_nuclearhoming>

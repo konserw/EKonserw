@@ -1430,7 +1430,7 @@
     <Sprite texture="%ModDir%/Items/Electricity/devices1.png" sourcerect="320,96,88,96" depth="0.8" canflipx="false" origin="0.5,0.5" />
     <UpgradePreviewSprite texture="Content/UI/WeaponUI.png" sourcerect="99,961,28,32" origin="0.5,0.45" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <!-- This has to exist for signal propogation code, but no electrical channel is used -->
     <PowerTransfer canbeselected="false" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />

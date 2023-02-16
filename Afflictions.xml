@@ -343,19 +343,6 @@
     </Effect>
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="896,896,128,128" color="160,100,200,255" origin="0,0" />
   </InternalDamage>
-  <InternalDamage name="Fusion Warhead Blast" identifier="ek_fusion_railgun_effect" description="" type="damage" causeofdeathdescription="" selfcauseofdeathdescription="" limbspecific="true" maxstrength="25" damageoverlayalpha="1">
-    <Effect minstrength="1" maxstrength="24" minvitalitydecrease="0" maxvitalitydecrease="0" strengthchange="-10000"></Effect>
-    <Effect minstrength="24" maxstrength="25" minvitalitydecrease="0" maxvitalitydecrease="0" strengthchange="-10000">
-      <StatusEffect target="Limb" disabledeltatime="true">
-        <Affliction identifier="explosiondamage" amount="1250" />
-        <Affliction identifier="lacerations" amount="1250" />
-        <Affliction identifier="internaldamage" amount="700" />
-        <Affliction identifier="bleeding" amount="100" />
-        <Affliction identifier="stun" amount="5" />
-      </StatusEffect>
-    </Effect>
-    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="896,896,128,128" color="160,100,200,255" origin="0,0" />
-  </InternalDamage>
   <!-- Todo: Clean up this affliction code alot -->
   <Affliction name="Drone Disarm Signal" identifier="ek_drone_disarm" description="" type="buff" limbspecific="false" indicatorlimb="Torso" activationthreshold="1.0" showiconthreshold="1000" maxstrength="91">
     <Effect minstrength="1" maxstrength="15" minvitalitydecrease="0" maxvitalitydecrease="0" strengthchange="-20">

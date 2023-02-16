@@ -6,7 +6,7 @@
     <BrokenSprite texture="%ModDir%/Items/Electricity/devices1.png" sourcerect="112,240,112,176" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Electricity/devices1.png" sourcerect="224,240,112,176" depth="0.8" maxcondition="0" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <PowerTransfer canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />
       <!--minsize="350,160" maxsize="420,190"-->
@@ -58,7 +58,7 @@
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="192,0,192,272" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="384,0,192,272" depth="0.8" maxcondition="0" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <PowerTransfer canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />
       <!--minsize="350,160" maxsize="420,190"-->
@@ -112,7 +112,7 @@
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="192,496,192,208" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="384,496,192,208" depth="0.8" maxcondition="0" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <PowerTransfer canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />
       <!--minsize="350,160" maxsize="420,190"-->
@@ -176,7 +176,7 @@
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="192,272,192,112" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="384,272,192,112" depth="0.8" maxcondition="0" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <PowerTransfer canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />
       <!--minsize="350,160" maxsize="420,190"-->
@@ -234,7 +234,7 @@
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="192,384,192,112" depth="0.8" maxcondition="80" fadein="true" />
     <BrokenSprite texture="%ModDir%/Items/Electricity/variants_junctions1.png" sourcerect="384,384,192,112" depth="0.8" maxcondition="0" />
     <InfectedSprite texture="Content/Items/Gardening/ballastflora.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
-    <DamagedInfectedSprite texture="Content/Items/Gardening/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
+    <DamagedInfectedSprite texture="%ModDir%/Items/ballastflora_burned.png" sourcerect="53,640,161,239" origin="0.5,0.5" />
     <PowerTransfer canbeselected="true" msg="ItemMsgInteractSelect">
       <GuiFrame relativesize="0.2,0.14" minsize="450,160" anchor="Center" style="ItemUI" />
       <!--minsize="350,160" maxsize="420,190"-->
