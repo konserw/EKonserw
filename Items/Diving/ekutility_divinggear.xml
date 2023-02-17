@@ -78,57 +78,6 @@
       <QualityStat stattype="Condition" value="0.15" />
     </Quality>
   </Item>
-  <Item name="" identifier="ekutility_rebreatherunit" aliases="rebreather,ekutility_rebreather" category="Equipment,Misc,Diving" Tags="smallitem,oxygensource,oxygentank,refillableoxygensource" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light">
-    <!--<Price storeidentifier="merchantResearch" buyprice="255" />-->
-    <!--<Price storeidentifier="merchantMilitary" buyprice="300" />-->
-    <Price baseprice="275" soldeverywhere="false" minleveldifficulty="33">
-      <Price storeidentifier="merchantoutpost" multiplier="1.1" sold="false" />
-      <Price storeidentifier="merchantcity" multiplier="1.25" sold="false" />
-      <Price storeidentifier="merchantresearch" multiplier="1" minavailable="4" />
-      <Price storeidentifier="merchantmilitary" multiplier="1.25" sold="false" />
-      <Price storeidentifier="merchantmine" multiplier="1" sold="false" />
-    </Price>
-    <Deconstruct time="10">
-      <Item identifier="titaniumaluminiumalloy" />
-      <Item identifier="fpgacircuit" />
-      <Item identifier="carbon" />
-      <Item identifier="lithium" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" outcondition="0.2" requiredtime="30">
-      <RequiredSkill identifier="mechanical" level="30" />
-      <RequiredSkill identifier="medical" level="60" />
-      <RequiredItem identifier="titaniumaluminiumalloy" />
-      <RequiredItem identifier="fpgacircuit" />
-      <RequiredItem identifier="carbon" />
-      <RequiredItem identifier="lithium" />
-    </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="128,0,64,64" />
-    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="64,128,96,80" depth="0.55" origin="0.5,0.55" />
-    <Body width="85" height="60" density="15" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect">
-      <StatusEffect type="Always" target="This" targetitemcomponent="LightComponent" IsOn="true" disabledeltatime="true" delay="3.5">
-        <Conditional Condition="lt 99" />
-      </StatusEffect>
-      <StatusEffect type="Always" target="This" targetitemcomponent="LightComponent" IsOn="false" disabledeltatime="true" delay="3.5">
-        <Conditional Condition="gt 99" />
-      </StatusEffect>
-    </Holdable>
-    <LightComponent characterusable="false" LightColor="0,0,0,0" range="1" IsOn="false">
-      <StatusEffect type="OnActive" target="This" Condition="0.6">
-        <RequiredItem identifier="batterycell,fulguriumbatterycell" type="Contained" />
-      </StatusEffect>
-      <StatusEffect type="OnActive" target="Contained" Condition="-0.18">
-        <RequiredItem identifier="batterycell" type="Contained" />
-      </StatusEffect>
-      <StatusEffect type="OnActive" target="Contained" Condition="-0.09">
-        <RequiredItem identifier="fulguriumbatterycell" type="Contained" />
-      </StatusEffect>
-    </LightComponent>
-    <ItemContainer autofill="False" capacity="1" maxstacksize="1" hideitems="true">
-      <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
-      <Containable identifiers="batterycell,fulguriumbatterycell" />
-    </ItemContainer>
-  </Item>
   <Item name="" identifier="ekutility_jetscooter" aliases="ekutility_experimentalscooter" category="Equipment,Diving" Tags="smallitem,provocative,scooter,underwaterscooter,light" cargocontaineridentifier="metalcrate" Scale="0.32" impactsoundtag="impact_metal_light" isshootable="true">
     <!--<Price storeidentifier="merchantResearch" buyprice="160" />-->
     <Price baseprice="170" soldeverywhere="false" minleveldifficulty="25">
@@ -332,44 +281,5 @@
         <StatusEffect type="OnContaining" targettype="This" Voltage="1.0" setvalue="true" />
       </Containable>
     </ItemContainer>
-  </Item>
-  <Item name="" identifier="ekutility_oxygencell2" category="Equipment,Misc,Diving" maxstacksize="3" Tags="smallitem,oxygensource,tag_oxygencell2" cargocontaineridentifier="metalcrate" scale="0.3" impactsoundtag="impact_metal_light">
-    <PreferredContainer primary="oxygentankcontainer,divingcab" />
-    <Price baseprice="185" soldeverywhere="false">
-      <!-- Why does a vanilla oxygen tank sell for more than twice it's value? -->
-      <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantcity" multiplier="0.9" sold="false" />
-      <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantmilitary" multiplier="1" sold="false" />
-      <Price storeidentifier="merchantmine" multiplier="1.25" sold="false" />
-    </Price>
-    <!-- 92
-	42
-	(75)
-	30
-	15.5
-	5
-	-->
-    <Deconstruct time="10">
-      <Item identifier="aluminium" />
-      <Item identifier="ethanol" outcondition="0.5" />
-      <Item identifier="calcium" outcondition="0.5" />
-      <Item identifier="potassium" outcondition="0.5" />
-    </Deconstruct>
-    <Fabricate suitablefabricators="fabricator" requiredtime="15">
-      <RequiredSkill identifier="medical" level="75" />
-      <RequiredItem identifier="aluminium" />
-      <RequiredItem identifier="oxygentank" mincondition="0.99" usecondition="true" />
-      <RequiredItem identifier="ethanol" />
-      <RequiredItem identifier="calcium" />
-      <RequiredItem identifier="potassium" />
-    </Fabricate>
-    <InventoryIcon texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="128,288,64,64" origin="0.5,0.5" />
-    <Sprite texture="%ModDir%/Items/Diving/ekutility_divinggear.png" sourcerect="64,224,48,112" depth="0.55" origin="0.5,0.5" />
-    <Body width="22" height="64" density="9.9" />
-    <Holdable canbecombined="true" slots="Any,RightHand,LeftHand" holdpos="30,-15" handle1="0,5" handle2="0,-5" msg="ItemMsgPickUpSelect" />
-    <Quality>
-      <QualityStat stattype="Condition" value="0.15" />
-    </Quality>
   </Item>
 </Items>

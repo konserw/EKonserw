@@ -277,16 +277,10 @@
   <entitydescription.ekutility_reinforcedtank_oxygen>High-pressure composite tank, resistant to puncture and heat.</entitydescription.ekutility_reinforcedtank_oxygen>
   <entityname.ekutility_reinforcedtank_oxygenite>Reinforced Oxygenite Tank</entityname.ekutility_reinforcedtank_oxygenite>
   <entitydescription.ekutility_reinforcedtank_oxygenite>High-pressure composite tank, resistant to puncture and heat.</entitydescription.ekutility_reinforcedtank_oxygenite>
-  <entityname.ekutility_rebreatherunit>Rebreather Unit</entityname.ekutility_rebreatherunit>
-  <entitydescription.ekutility_rebreatherunit>Experimental self-contained rebreather unit, its connections are designed to be compatible with most standard coalition diving equipment. Requires batteries and internal oxygen storage to function.</entitydescription.ekutility_rebreatherunit>
   <entityname.ekutility_jetscooter>Jetscooter</entityname.ekutility_jetscooter>
   <entitydescription.ekutility_jetscooter>Advanced underwater propulsion device. Features improved battery lifetime and a built-in sonar navigation system.</entitydescription.ekutility_jetscooter>
   <entityname.ekutility_advancedsonarbeacon>Advanced Sonar Beacon</entityname.ekutility_advancedsonarbeacon>
   <entitydescription.ekutility_advancedsonarbeacon>A handheld positional beacon transmitter, an invaluable tool for extravehicular operations.</entitydescription.ekutility_advancedsonarbeacon>
-  <entityname.ekutility_oxygencell1>Oxygen Cell Mk-I</entityname.ekutility_oxygencell1>
-  <entitydescription.ekutility_oxygencell1>Hardsuit non-rechargable oxygen supply which utilizes chemical reagents to produce a large density of oxygen.</entitydescription.ekutility_oxygencell1>
-  <entityname.ekutility_oxygencell2>Oxygen Cell Mk-II</entityname.ekutility_oxygencell2>
-  <entitydescription.ekutility_oxygencell2>Hardsuit non-rechargable oxygen supply which utilizes chemical reagents to produce a large density of oxygen.</entitydescription.ekutility_oxygencell2>
   <!-- ekutility_placeablemachines.xml -->
   <entityname.ekutility_divingsuitlocker>Diving Suit Locker</entityname.ekutility_divingsuitlocker>
   <entitydescription.ekutility_divingsuitlocker>Storage for one diving suit, refills oxygen if powered. ( Place by pressing aim + use )</entitydescription.ekutility_divingsuitlocker>
@@ -355,8 +349,6 @@
   <entitydescription.ekutility_yellowchemlight></entitydescription.ekutility_yellowchemlight>
   <entityname.ekutility_medicalscanner>Medical Scanner</entityname.ekutility_medicalscanner>
   <entitydescription.ekutility_medicalscanner>A handheld scanner that displays the health status of individuals.</entitydescription.ekutility_medicalscanner>
-  <entityname.ekutility_guicompass>Gyro-compass</entityname.ekutility_guicompass>
-  <entitydescription.ekutility_guicompass>Self-illuminating handheld compass.</entitydescription.ekutility_guicompass>
   <entityname.ekutility_grapplegun>Grappling Hook</entityname.ekutility_grapplegun>
   <entitydescription.ekutility_grapplegun>Have fun swinging through the air without a care in the world.</entitydescription.ekutility_grapplegun>
   <entityname.ekutility_grapplegunprojectile>ekutility_grapplegunprojectile</entityname.ekutility_grapplegunprojectile>

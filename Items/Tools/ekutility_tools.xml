@@ -617,36 +617,6 @@
     </ItemContainer>-->
     <StatusHUD drawhudwhenequipped="true" />
   </Item>
-  <Item name="" identifier="ekutility_guicompass" scale="0.32" category="Equipment" tags="smallitem" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" hideinmenus="true">
-    <!--<Price storeidentifier="merchantCity" buyprice="60" />
-    <Price storeidentifier="merchantResearch" buyprice="80" />
-    <Price storeidentifier="merchantMilitary" buyprice="80" />
-    <Price storeidentifier="merchantOutpost" buyprice="65" />
-    <Price storeidentifier="merchantMine" buyprice="70" />-->
-    <Deconstruct time="10">
-      <Item identifier="phosphorus" />
-      <Item identifier="aluminium" />
-    </Deconstruct>
-    <!--<Fabricate suitablefabricators="fabricator" requiredtime="5">
-      <RequiredItem identifier="phosphorus" />
-      <RequiredItem identifier="aluminium" />
-    </Fabricate> -->
-    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,256,64,64" origin="0.5,0.5" />-->
-    <Sprite texture="%ModDir%/Items/Tools/ekutility_tools.png" sourcerect="192,256,96,80" depth="0.6" origin="0.5,0.5" />
-    <Body width="90" height="68" density="11" />
-    <Holdable slots="Any,RightHand,LeftHand" holdpos="45,-10" aimpos="65,0" handle1="-20,-16" msg="ItemMsgPickUpSelect" />
-    <!--<Sonar range="0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="false" displaybordersize="0.0">
-      <GuiFrame relativesize="0.1,0.1" anchor="BottomLeft" absoluteoffset="-15,-15" />
-      <ScreenOverlay texture="Mods/Ek Utilities/Items/Tools/gui_compass.png" size="0.037,0.037" origin="0,1"/>
-    </Sonar>-->
-    <!--<ItemComponent canbeselected="false" drawhudwhenequipped="true">
-      <GuiFrame relativesize="0.2,0.2" absoluteoffset="0,0" anchor="BottomLeft" style="ItemUI">
-        <ScreenOverlay texture="Mods/Ek Utilities/Items/Tools/gui_compass.png" size="0.037,0.037" origin="0,1"/>
-        <Sprite texture="Mods/Ek Utilities/Items/Tools/gui_compass.png" sourcerect="0,0,768,768" size="0.037,0.037" origin="0,1"/>
-      </GuiFrame>
-    </ItemComponent>-->
-  </Item>
-  <!-- SPRINKLER MOVED TO PLACEABLEMACINES.XML FILE -->
   <Item name="" identifier="ekutility_grapplegun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,tool,provocative" Scale="0.32" impactsoundtag="impact_metal_light" HideConditionBar="true">
     <Price baseprice="115" minleveldifficulty="15">
       <Price storeidentifier="merchantoutpost" multiplier="1" minavailable="1" />
